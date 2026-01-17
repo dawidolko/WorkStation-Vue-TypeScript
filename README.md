@@ -35,17 +35,20 @@ BattleStation-Vue-TypeScript/
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/dawidolko/WorkplayHub-Vue-TypeScript.git
 cd WorkplayHub-Vue-TypeScript
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Start Development Server
+
 ```bash
 npm run dev
 
@@ -57,18 +60,21 @@ npm run dev
 ## ⚙️ System Requirements
 
 ### **Essential Tools:**
+
 - **Node.js** (version 16.0 or higher)
 - **npm** or **yarn** package manager
 - **Modern Web Browser** (Chrome, Firefox, Safari, Edge)
 - **Git** for version control
 
 ### **Development Environment:**
+
 - **Code Editor** (VS Code, WebStorm, Sublime Text)
 - **Vue.js DevTools** browser extension
 - **TypeScript** language server
 - **Vite** development server (included)
 
 ### **Recommended Extensions:**
+
 - **Vue.js** syntax highlighting (Vetur or Volar)
 - **TypeScript** support and IntelliSense
 - **Tailwind CSS** IntelliSense
@@ -76,6 +82,7 @@ npm run dev
 - **ESLint** for code quality
 
 ### **Vue.js + TypeScript Ecosystem:**
+
 - **Vue 3** with Composition API
 - **TypeScript** for static typing
 - **Pinia** for state management
@@ -84,6 +91,7 @@ npm run dev
 - **Vite** for build tooling
 
 ### **Testing & Quality Tools:**
+
 - **Cypress** for E2E testing
 - **ESLint** and **Prettier** for code quality
 - **Unhead** for SEO optimization
@@ -92,30 +100,35 @@ npm run dev
 ## ✨ Key Features
 
 ### **🖥️ Interactive Hardware Showcase**
+
 - Comprehensive gaming and productivity setup visualization
 - Detailed PC specifications: Ryzen 7 5800X, RTX 3060Ti, 64GB RAM
 - MacBook Pro M3 mobile workstation details
 - Professional audio equipment and peripherals showcase
 
 ### **🎮 Gaming-Focused Design**
+
 - Modern UI with gaming-inspired aesthetic and yellow accent colors
 - Smooth animations and transitions for interactive elements
 - Responsive design optimized for all device sizes
 - Touch-friendly navigation for mobile hardware browsing
 
 ### **⚡ Advanced Technical Features**
+
 - Full TypeScript integration with comprehensive type safety
 - Pinia state management for component showcase data
 - Dynamic routing with Vue Router 4 for hardware categories
 - SEO optimization with structured data and meta tags
 
 ### **📱 Responsive & Performance Optimized**
+
 - Mobile-first approach with touch-friendly interactions
 - Lazy loading for hardware images and components
 - Code splitting for faster initial load times
 - WebP image optimization for better performance
 
 ### **🔧 Professional Development Stack**
+
 - Component-based Vue 3 architecture with Composition API
 - Modular SCSS organization with Tailwind CSS utilities
 - Comprehensive testing with Cypress E2E framework
@@ -173,6 +186,7 @@ Feel free to open issues or reach out through GitHub for any questions or sugges
 ## 👨‍💻 Author
 
 Created by **[Dawid Olko](https://github.com/dawidolko)**
+
 - **Website** - [dawidolko.pl](https://dawidolko.pl/)
 - **LinkedIn** - [@dawidolko](https://www.linkedin.com/in/dawidolko/)
 
@@ -181,5 +195,3 @@ Created by **[Dawid Olko](https://github.com/dawidolko)**
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-⭐ **Found this helpful?** Give it a star and share with fellow Vue.js developers and PC enthusiasts!
