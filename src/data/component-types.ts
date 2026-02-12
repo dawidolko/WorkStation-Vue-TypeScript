@@ -10,7 +10,7 @@ export interface Component {
   type: "main" | "secondary";
 }
 
-export interface BattlestationData {
+export interface WorkStationDataType {
   [key: string]: Component[];
 }
 

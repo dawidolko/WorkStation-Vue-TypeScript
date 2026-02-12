@@ -1,4 +1,4 @@
-// Navigation tests for BattleStation showcase
+// Navigation tests for WorkStation showcase
 
 describe("Navigation on small screens", () => {
   beforeEach(() => {
@@ -117,7 +117,7 @@ describe("Component interactions", () => {
     cy.get('[data-test="component-details"]')
       .should("be.visible")
       .and("contain", "Ryzen 7 5800X")
-      .and("contain", "RTX 3060Ti");
+      .and("contain", "RX 9070xt");
   });
 
   it("shows laptop specifications", () => {

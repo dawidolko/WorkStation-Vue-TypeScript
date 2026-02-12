@@ -55,7 +55,7 @@ function hideHamburger(): void {
         to="/"
         class="text-3xl font-extrabold tracking-tight antialiased transition duration-300 hover:scale-110 hover:text-k-main"
         data-test="nav-logo">
-        BattleStation
+        WorkStation
       </router-link>
 
       <nav class="hidden tracking-widest lg:flex lg:gap-8">

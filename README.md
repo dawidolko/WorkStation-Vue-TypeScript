@@ -1,25 +1,25 @@
-# BattleStation-Vue-TypeScript
+# WorkStation-Vue-TypeScript
 
 > 🚀 **Interactive Gaming Setup Showcase with Vue.js & TypeScript** - Build responsive portfolio websites for hardware enthusiasts and gamers
 
 ## 📋 Description
 
-Welcome to the **BattleStation-Vue-TypeScript** repository! This project showcases an interactive portfolio for visualizing complete gaming and productivity workspace setups. Built with Vue.js 3 and TypeScript, the application features detailed component specifications, interactive views, and comprehensive hardware breakdowns with modern UI, smooth transitions, and responsive design.
+Welcome to the **WorkStation-Vue-TypeScript** repository! This project showcases an interactive portfolio for visualizing complete gaming and productivity workspace setups. Built with Vue.js 3 and TypeScript, the application features detailed component specifications, interactive views, and comprehensive hardware breakdowns with modern UI, smooth transitions, and responsive design.
 
-This repository demonstrates advanced Vue.js development with TypeScript, state management with Pinia, and modern build tools for hardware showcase platforms. Perfect for PC enthusiasts, gamers, and anyone wanting to showcase their battlestation setup professionally.
+This repository demonstrates advanced Vue.js development with TypeScript, state management with Pinia, and modern build tools for hardware showcase platforms. Perfect for PC enthusiasts, gamers, and anyone wanting to showcase their WorkStation setup professionally.
 
 ## 📁 Repository Structure
 
 ```
-BattleStation-Vue-TypeScript/
+WorkStation-Vue-TypeScript/
 ├── 📁 src/
 │   ├── ⚛️ components/         # Reusable Vue components
 │   │   ├── 🔘 Buttons/        # Button components
 │   │   ├── 🧭 navigation-global.vue
 │   │   └── 🦶 footer-global.vue
 │   ├── 📊 data/               # Hardware data and utilities
-│   │   ├── ⚙️ battlestation-data.ts    # Hardware specifications
-│   │   └── 🛠️ battlestation-utils.ts   # Data manipulation utilities
+│   │   ├── ⚙️ WorkStation-data.ts    # Hardware specifications
+│   │   └── 🛠️ WorkStation-utils.ts   # Data manipulation utilities
 │   ├── 📄 pages/              # Application pages
 │   │   ├── 🏠 Landing/        # Home page with overview
 │   │   ├── 📂 Category/       # Hardware category pages
@@ -102,7 +102,7 @@ npm run dev
 ### **🖥️ Interactive Hardware Showcase**
 
 - Comprehensive gaming and productivity setup visualization
-- Detailed PC specifications: Ryzen 7 5800X, RTX 3060Ti, 64GB RAM
+- Detailed PC specifications: Ryzen 7 5800X, RX 9070xt, 64GB RAM
 - MacBook Pro M3 mobile workstation details
 - Professional audio equipment and peripherals showcase
 
@@ -151,7 +151,7 @@ The project is deployed and available at: **[https://workplayhub.dawidolko.pl](h
 
 ## 🖼️ Preview
 
-![BattleStation Showcase](img/screen_page.png)
+![WorkStation Showcase](img/screen_page.png)
 
 ## 📝 Available Scripts
 

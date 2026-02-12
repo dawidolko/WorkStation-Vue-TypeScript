@@ -1,9 +1,9 @@
 import { Component } from "./component-types";
-import { battlestationData } from "./battlestation-data";
+import { WorkStationData } from "./WorkStation-data";
 
 export function getComponentsByCategory(category: string): Component[] {
-  if (category in battlestationData) {
-    return battlestationData[category];
+  if (category in WorkStationData) {
+    return WorkStationData[category];
   }
   return [];
 }
@@ -14,13 +14,13 @@ export function getComponent(category: string, id: number): Component | null {
 }
 
 export function getAllCategories(): string[] {
-  return Object.keys(battlestationData);
+  return Object.keys(WorkStationData);
 }
 
 export function getMainComponents(): Component[] {
   const mainComponents: Component[] = [];
 
-  Object.values(battlestationData).forEach((categoryComponents) => {
+  Object.values(WorkStationData).forEach((categoryComponents) => {
     categoryComponents.forEach((component) => {
       if (component.type === "main") {
         mainComponents.push(component);
@@ -53,11 +53,11 @@ export function getFeaturedComponents(limit: number = 3): Component[] {
 export function getRandomComponents(
   currentCategory: string,
   currentId: number,
-  limit: number = 3
+  limit: number = 3,
 ): Component[] {
   const allComponents: Component[] = [];
 
-  Object.entries(battlestationData).forEach(([, components]) => {
+  Object.entries(WorkStationData).forEach(([, components]) => {
     components.forEach((component) => {
       if (
         !(component.category === currentCategory && component.id === currentId)
@@ -73,7 +73,7 @@ export function getRandomComponents(
 
 export function getTotalComponents(): number {
   let total = 0;
-  Object.values(battlestationData).forEach((components) => {
+  Object.values(WorkStationData).forEach((components) => {
     total += components.length;
   });
   return total;

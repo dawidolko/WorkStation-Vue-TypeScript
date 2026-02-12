@@ -2,7 +2,7 @@
 import Navigation from "../../components/navigation-global.vue";
 import Footer from "../../components/footer-global.vue";
 import YmalBoxes from "../../components/ymal-boxes.vue";
-import { getComponent } from "../../data/battlestation-utils";
+import { getComponent } from "../../data/WorkStation-utils";
 import { computed } from "vue";
 
 const props = defineProps<{

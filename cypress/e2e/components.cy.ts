@@ -1,4 +1,4 @@
-// Component showcase tests for BattleStation
+// Component showcase tests for WorkStation
 
 describe("Desktop: Component showcase", () => {
   beforeEach(() => {
@@ -22,7 +22,7 @@ describe("Desktop: Component showcase", () => {
       .should("be.visible")
       .and("contain", "Phanteks NV7")
       .and("contain", "Ryzen 7 5800X")
-      .and("contain", "RTX 3060Ti")
+      .and("contain", "RX 9070xt")
       .and("contain", "64GB DDR4");
   });
 
@@ -31,17 +31,17 @@ describe("Desktop: Component showcase", () => {
     cy.get('[data-test="component-pc"]').click();
     cy.get('[data-test="pc-specs-modal"]').should("be.visible");
     cy.get('[data-test="cpu-specs"]').should("contain", "AMD Ryzen 7 5800X");
-    cy.get('[data-test="gpu-specs"]').should("contain", "NVIDIA RTX 3060Ti");
+    cy.get('[data-test="gpu-specs"]').should("contain", "NVIDIA RX 9070xt");
     cy.get('[data-test="ram-specs"]').should(
       "contain",
-      "64GB DDR4 3200MHz Corsair"
+      "64GB DDR4 3200MHz Corsair",
     );
     cy.get('[data-test="storage-specs"]')
       .should("contain", "Lexar 890 Pro M.2")
       .and("contain", "SSD 512GB");
     cy.get('[data-test="motherboard-specs"]').should(
       "contain",
-      "ASUS Strix ROG B550 White"
+      "ASUS Strix ROG B550 White",
     );
     cy.get('[data-test="cooling-specs"]').should("contain", "AORUS 360 AIO");
     cy.get('[data-test="psu-specs"]').should("contain", "SilentiumPC 700W");
@@ -64,7 +64,7 @@ describe("Desktop: Component showcase", () => {
     cy.get('[data-test="monitor-specs-modal"]').should("be.visible");
     cy.get('[data-test="monitor-primary"]').should(
       "contain",
-      "IIYAMA G-MASTER GB2530HSU"
+      "IIYAMA G-MASTER GB2530HSU",
     );
     cy.get('[data-test="monitor-secondary"]').should("contain", "HP 25x 144Hz");
     cy.get('[data-test="monitor-count"]').should("contain", "3 monitors total");
@@ -76,20 +76,20 @@ describe("Desktop: Component showcase", () => {
     cy.get('[data-test="peripheral-specs-modal"]').should("be.visible");
     cy.get('[data-test="keyboard-specs"]').should(
       "contain",
-      "Razer BlackWidow Pro V4"
+      "Razer BlackWidow Pro V4",
     );
     cy.get('[data-test="mouse-specs"]').should("contain", "Razer Viper V2 Pro");
     cy.get('[data-test="laptop-mouse-specs"]').should(
       "contain",
-      "Logitech MX3"
+      "Logitech MX3",
     );
     cy.get('[data-test="headset-specs"]').should(
       "contain",
-      "Razer BlackShark V2 Pro"
+      "Razer BlackShark V2 Pro",
     );
     cy.get('[data-test="mousepad-specs"]').should(
       "contain",
-      "Razer Mouse Bungee"
+      "Razer Mouse Bungee",
     );
   });
 
@@ -99,12 +99,15 @@ describe("Desktop: Component showcase", () => {
     cy.get('[data-test="audio-specs-modal"]').should("be.visible");
     cy.get('[data-test="speakers-specs"]').should(
       "contain",
-      "EDIFIER R1855DB 2.0"
+      "EDIFIER R1855DB 2.0",
     );
-    cy.get('[data-test="microphone-specs"]').should("contain", "Novox NC1");
+    cy.get('[data-test="microphone-specs"]').should(
+      "contain",
+      "HyperX QuadCast S",
+    );
     cy.get('[data-test="headset-specs"]').should(
       "contain",
-      "Razer BlackShark V2 Pro"
+      "Razer BlackShark V2 Pro",
     );
   });
 

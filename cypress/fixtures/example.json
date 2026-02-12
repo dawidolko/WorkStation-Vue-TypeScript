@@ -1,6 +1,6 @@
 {
-  "battlestation": {
-    "name": "My Ultimate Gaming & Productivity BattleStation",
+  "WorkStation": {
+    "name": "My Ultimate Gaming & Productivity WorkStation",
     "description": "A comprehensive showcase of my complete gaming and productivity setup featuring high-end components and ergonomic design",
     "owner": "Your Name",
     "setup_type": "Gaming & Productivity Hybrid"
@@ -8,7 +8,7 @@
   "main_pc": {
     "case": "Phanteks NV7",
     "cpu": "AMD Ryzen 7 5800X",
-    "gpu": "NVIDIA RTX 3060Ti",
+    "gpu": "NVIDIA RX 9070xt",
     "ram": "64GB DDR4 3200MHz Corsair",
     "storage_primary": "Lexar 890 Pro M.2 NVMe",
     "storage_secondary": "SSD 512GB",
@@ -78,7 +78,7 @@
       "connectivity": "Bluetooth, RCA, AUX"
     },
     "microphone": {
-      "model": "Novox NC1",
+      "model": "HyperX QuadCast S",
       "type": "USB Condenser Microphone",
       "use_case": "Streaming and calls"
     },

@@ -1,6 +1,6 @@
 import { RouteLocationNormalized, NavigationGuardNext } from "vue-router";
 import { useSeoMeta } from "@unhead/vue";
-import { getComponent } from "../data/battlestation-utils";
+import { getComponent } from "../data/WorkStation-utils";
 import { meta } from "../data/component-types";
 import { categoryPageMeta } from "../data/meta";
 import { getComponentPageMeta } from "../data/meta-utils";
@@ -53,7 +53,7 @@ export function componentRoute(category: string) {
     beforeEnter: (
       to: RouteLocationNormalized,
       _: RouteLocationNormalized,
-      next: NavigationGuardNext
+      next: NavigationGuardNext,
     ) => {
       const component = getComponent(category, parseRouteId(to.params.id));
       if (!component) {

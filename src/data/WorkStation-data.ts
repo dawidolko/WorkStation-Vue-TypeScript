@@ -1,16 +1,16 @@
-import { BattlestationData } from "./component-types";
+import { WorkStationDataType } from "./component-types";
 
-export const battlestationData: BattlestationData = {
+export const WorkStationData: WorkStationDataType = {
   pc: [
     {
       id: 1,
       category: "pc",
       name: "Gaming PC",
-      model: "Ryzen 7 5800X + RTX 3060Ti",
+      model: "Ryzen 7 5800X + RX 9070xt",
       specs: [
         "Case: Phanteks NV7",
         "CPU: AMD Ryzen 7 5800X",
-        "GPU: NVIDIA RTX 3060Ti",
+        "GPU: NVIDIA RX 9070xt",
         "RAM: 64GB DDR4 3200MHz Corsair",
         "Storage: Lexar 890 Pro M.2 NVMe",
         "Storage: SSD 512GB",
@@ -20,7 +20,7 @@ export const battlestationData: BattlestationData = {
         "PSU: SilentiumPC 700W",
       ],
       description:
-        "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RTX 3060Ti.",
+        "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RX 9070xt.",
       image: "/products/pc/main-pc.jpg",
       detailImages: [
         "/products/pc/pc-inside.png",
@@ -171,10 +171,16 @@ export const battlestationData: BattlestationData = {
       id: 2,
       category: "audio",
       name: "Microphone",
-      model: "Novox NC1",
-      specs: ["Type: USB Condenser Microphone", "Use: Streaming and calls"],
-      description: "USB condenser microphone.",
-      image: "/products/audio/microphone.jpg",
+      model: "HyperX QuadCast S",
+      specs: [
+        "Type: USB Condenser Microphone",
+        "RGB Lighting: Dynamic effects",
+        "Polar Patterns: 4 selectable patterns",
+        "Use: Streaming and recording",
+      ],
+      description:
+        "Professional RGB USB condenser microphone with excellent sound quality.",
+      image: "/products/audio/microphone.webp",
       type: "main",
     },
   ],

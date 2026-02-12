@@ -23,7 +23,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
     <section class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">
       <div class="grid gap-8 md:grid-cols-2">
         <div>
-          <h2 class="text-3xl font-bold text-k-black mb-4">My BattleStation</h2>
+          <h2 class="text-3xl font-bold text-k-black mb-4">My WorkStation</h2>
           <p class="text-black opacity-70 mb-6">
             Welcome to my complete gaming and work station. This is where
             passion for technology meets functionality. Every element has been
@@ -32,9 +32,9 @@ import setupCloseImage from "/products/workspace/station3.webp";
           </p>
           <p class="text-black opacity-70">
             The setup consists of a powerful PC with Ryzen 7 5800X and RTX
-            3060Ti, MacBook Pro M3 for mobile work, three monitors for maximum
+            9070xt, MacBook Pro M3 for mobile work, three monitors for maximum
             productivity, and professional audio equipment from EDIFIER and
-            Novox.
+            HyperX.
           </p>
         </div>
         <div class="rounded-lg overflow-hidden cursor-pointer">
@@ -102,7 +102,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
           class="p-6 rounded-lg bg-k-grey hover:bg-k-main transition-colors duration-300 cursor-pointer">
           <h3 class="text-xl font-semibold text-k-black mb-3">Gaming PC</h3>
           <p class="text-k-black opacity-70">
-            Heart of the setup - Ryzen 7 5800X, RTX 3060Ti, 64GB RAM in Phanteks
+            Heart of the setup - Ryzen 7 5800X, RX 9070xt, 64GB RAM in Phanteks
             NV7 case
           </p>
         </div>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Component } from "../data/component-types.ts";
-import { getRandomComponents } from "../data/battlestation-utils.ts";
+import { getRandomComponents } from "../data/WorkStation-utils.ts";
 import { onBeforeMount } from "vue";
 import ButtonSolid from "../components/Buttons/button-solid.vue";
 

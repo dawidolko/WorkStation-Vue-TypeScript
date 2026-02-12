@@ -12,7 +12,7 @@ import setupMainImage from "/products/workspace/station2.webp";
         class="relative z-10 flex flex-col items-center justify-center pb-10 xl:items-start xl:pb-0">
         <p
           class="md:text-md text-sm font-light uppercase tracking-broad text-white opacity-80">
-          new setup
+          my setup
         </p>
         <h1
           class="relative mt-4 text-5xl font-semibold uppercase text-white md:text-6xl lg:text-7xl">

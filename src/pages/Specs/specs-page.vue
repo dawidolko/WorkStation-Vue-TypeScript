@@ -4,7 +4,7 @@ import Footer from "../../components/footer-global.vue";
 import {
   getAllCategories,
   getComponentsByCategory,
-} from "../../data/battlestation-utils";
+} from "../../data/WorkStation-utils";
 
 const getCategoryDisplayNameEnglish = (category: string): string => {
   const displayNames: { [key: string]: string } = {

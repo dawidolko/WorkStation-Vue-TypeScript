@@ -2,7 +2,7 @@
 import {
   getTotalComponents,
   getAllCategories,
-} from "../../../data/battlestation-utils";
+} from "../../../data/WorkStation-utils";
 
 const totalComponents = getTotalComponents();
 const totalCategories = getAllCategories().length;
@@ -17,12 +17,12 @@ const totalCategories = getAllCategories().length;
         class="flex h-full flex-col items-center justify-center text-center md:w-1/2 md:items-start md:text-start">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
           My <br class="hidden xl:inline" />
-          <span class="text-k-main">Battlestation</span> in numbers
+          <span class="text-k-main">WorkStation</span> in numbers
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
-          Discover my work and gaming station. From a powerful gaming PC with
-          RTX 3060Ti, through MacBook Pro M3, to a professional audio setup with
-          the Novox NC1 microphone.
+          Discover my work and gaming station. From a powerful gaming PC with RX
+          9070xt, through MacBook Pro M3, to a professional audio setup with the
+          HyperX QuadCast S microphone.
           <br />
           <br />
           Each component has been carefully selected for maximum efficiency in

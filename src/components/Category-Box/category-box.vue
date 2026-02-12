@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import arrowIcon from "/icons/right-arrow.svg";
-import { getCategoryDisplayName } from "../../data/battlestation-utils";
+import { getCategoryDisplayName } from "../../data/WorkStation-utils";
 
 const props = defineProps<{
   src: string;

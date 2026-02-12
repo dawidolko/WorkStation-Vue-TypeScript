@@ -21,7 +21,7 @@ import instagramIcon from "/icons/instagram.svg";
         <router-link
           to="/"
           class="mb-8 cursor-pointer text-4xl font-bold text-white subpixel-antialiased transition duration-300 hover:scale-110 hover:text-k-main md:mb-0 md:text-3xl">
-          BattleStation
+          WorkStation
         </router-link>
         <nav
           class="flex flex-col items-center justify-between gap-6 md:flex-row md:items-start md:gap-10">
@@ -54,7 +54,7 @@ import instagramIcon from "/icons/instagram.svg";
           class="mb-10 text-center tracking-wide opacity-70 md:mb-0 md:w-2/3 md:text-left">
           Welcome to my workstation and gaming presentation! This is a
           comprehensive overview of my gaming/productivity setup with the
-          highest quality components. From a powerful PC with RTX 3060Ti to a
+          highest quality components. From a powerful PC with RX 9070xt to a
           professional audio setup - every detail has been carefully selected.
         </p>
         <nav class="flex flex-row gap-4 md:self-end">
@@ -80,7 +80,7 @@ import instagramIcon from "/icons/instagram.svg";
       </div>
       <p
         class="mt-16 text-center text-sm font-semibold tracking-wide text-white opacity-60 md:text-start">
-        Copyright 2025. My BattleStation Showcase.
+        Copyright 2025. My WorkStation Showcase.
       </p>
     </div>
   </footer>

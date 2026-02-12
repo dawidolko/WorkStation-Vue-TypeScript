@@ -1,5 +1,9 @@
 import LandingPage from "../pages/Landing/landing-page.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHistory,
+  type RouteLocationNormalized,
+} from "vue-router";
 import { useSeoMeta } from "@unhead/vue";
 import { categoryRoute, componentRoute } from "./route-utils";
 
@@ -10,12 +14,12 @@ const routes = [
     component: LandingPage,
     beforeEnter: () => {
       useSeoMeta({
-        title: "BattleStation | Ultimate Gaming & Work Setup",
+        title: "WorkStation | Ultimate Gaming & Work Setup",
         description:
-          "Get to know my work and gaming station. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3, and more.",
-        ogTitle: "BattleStation | Ultimate Gaming & Work Setup",
+          "Get to know my work and gaming station. Ryzen 7 5800X, RX 9070xt, MacBook Pro M3, and more.",
+        ogTitle: "WorkStation | Ultimate Gaming & Work Setup",
         ogDescription:
-          "Get to know my work and gaming station. Ryzen 7 5800X, RTX 3060Ti, MacBook Pro M3, and more.",
+          "Get to know my work and gaming station. Ryzen 7 5800X, RX 9070xt, MacBook Pro M3, and more.",
         ogImage: "/products/setup/main-setup.jpg",
       });
     },
@@ -44,10 +48,10 @@ const routes = [
       useSeoMeta({
         title: "Components | All Components",
         description:
-          "Detailed overview of all my battlestation components - PC, laptop, peripherals, audio.",
+          "Detailed overview of all my WorkStation components - PC, laptop, peripherals, audio.",
         ogTitle: "Components | All Components",
         ogDescription:
-          "Detailed overview of all my battlestation components - PC, laptop, peripherals, audio.",
+          "Detailed overview of all my WorkStation components - PC, laptop, peripherals, audio.",
         ogImage: "/products/components/components-grid.webp",
       });
     },
@@ -115,7 +119,11 @@ const Router = createRouter({
   history: createWebHistory(),
   routes,
 
-  scrollBehavior(_1, _2, savedPosition) {
+  scrollBehavior(
+    _to: RouteLocationNormalized,
+    _from: RouteLocationNormalized,
+    savedPosition: { left: number; top: number } | null,
+  ) {
     if (savedPosition) {
       return savedPosition;
     } else {

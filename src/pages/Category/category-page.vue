@@ -6,7 +6,7 @@ import Footer from "../../components/footer-global.vue";
 import {
   getComponentsByCategory,
   getCategoryDisplayName,
-} from "../../data/battlestation-utils";
+} from "../../data/WorkStation-utils";
 import { computed } from "vue";
 
 const props = defineProps<{

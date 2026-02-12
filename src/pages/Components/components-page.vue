@@ -5,7 +5,7 @@ import {
   getAllCategories,
   getComponentsByCategory,
   getCategoryDisplayName,
-} from "../../data/battlestation-utils";
+} from "../../data/WorkStation-utils";
 </script>
 
 <template>

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { getCategoryDisplayName } from "../../../data/battlestation-utils";
+import { getCategoryDisplayName } from "../../../data/WorkStation-utils";
 
 const props = defineProps<{
   category: string;
 }>();
 
 const categoryDescriptions: { [key: string]: string } = {
-  pc: "My main computer is a powerful machine for gaming and work. Ryzen 7 5800X combined with RTX 3060Ti and 64GB RAM ensures smooth performance in every task.",
+  pc: "My main computer is a powerful machine for gaming and work. Ryzen 7 5800X combined with RX 9070xt and 64GB RAM ensures smooth performance in every task.",
   laptop:
     "MacBook Pro M3 is my choice for mobile work. Apple M3 chip and 18GB RAM guarantee performance in professional applications.",
   monitors:
@@ -14,7 +14,7 @@ const categoryDescriptions: { [key: string]: string } = {
   peripherals:
     "Razer peripherals provide precision and comfort during long gaming and work sessions.",
   audio:
-    "Professional audio setup with EDIFIER speakers and Novox NC1 microphone for streaming and calls.",
+    "Professional audio setup with EDIFIER speakers and HyperX QuadCast S microphone for streaming and recording.",
   workspace:
     "Ergonomic workstation with custom desk and height adjustment for maximum comfort.",
 };
