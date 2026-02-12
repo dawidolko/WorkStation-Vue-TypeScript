@@ -27,21 +27,25 @@ import instagramIcon from "/icons/instagram.svg";
           class="flex flex-col items-center justify-between gap-6 md:flex-row md:items-start md:gap-10">
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
+            active-class="!text-k-main underline"
             to="/"
             >Home
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
+            active-class="!text-k-main underline"
             to="/setup"
             >Setup
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
+            active-class="!text-k-main underline"
             to="/components"
             >Components
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
+            active-class="!text-k-main underline"
             to="/specs"
             >Specs
           </router-link>

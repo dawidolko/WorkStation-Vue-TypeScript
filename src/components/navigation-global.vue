@@ -62,24 +62,28 @@ function hideHamburger(): void {
         <router-link
           to="/"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
+          active-class="!text-k-main underline"
           data-test="nav-home"
           >Home
         </router-link>
         <router-link
           to="/setup"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
+          active-class="!text-k-main underline"
           data-test="nav-setup"
           >Setup
         </router-link>
         <router-link
           to="/components"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
+          active-class="!text-k-main underline"
           data-test="nav-components"
           >Components
         </router-link>
         <router-link
           to="/specs"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
+          active-class="!text-k-main underline"
           data-test="nav-specs"
           >Specs
         </router-link>
@@ -103,6 +107,7 @@ function hideHamburger(): void {
         <router-link
           to="/"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
+          active-class="!text-k-main underline"
           :class="$route.path === '/' && 'hidden'"
           @click="hideHamburger()"
           data-test="mobile-nav-home"
@@ -111,6 +116,7 @@ function hideHamburger(): void {
         <router-link
           to="/setup"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
+          active-class="!text-k-main underline"
           :class="$route.path === '/setup' && 'hidden'"
           @click="hideHamburger()"
           data-test="mobile-nav-setup"
@@ -119,6 +125,7 @@ function hideHamburger(): void {
         <router-link
           to="/components"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
+          active-class="!text-k-main underline"
           :class="$route.path === '/components' && 'hidden'"
           @click="hideHamburger()"
           data-test="mobile-nav-components"
@@ -127,6 +134,7 @@ function hideHamburger(): void {
         <router-link
           to="/specs"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
+          active-class="!text-k-main underline"
           :class="$route.path === '/specs' && 'hidden'"
           @click="hideHamburger()"
           data-test="mobile-nav-specs"
