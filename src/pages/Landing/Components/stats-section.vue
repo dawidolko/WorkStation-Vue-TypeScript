@@ -10,7 +10,7 @@ const totalCategories = getAllCategories().length;
 
 <template>
   <section
-    class="mt-20 flex h-full flex-col items-center justify-center md:mt-32 lg:mt-40">
+    class="mt-20 flex h-full flex-col items-center justify-center md:mt-32 lg:mt-40 bg-k-light-grey py-20">
     <div
       class="flex h-full w-4/5 max-w-6xl flex-col items-center gap-10 md:h-[20rem] md:w-11/12 md:flex-row md:items-center md:justify-between md:gap-32 lg:h-[20rem] lg:w-4/5">
       <div

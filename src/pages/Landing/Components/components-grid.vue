@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import ButtonEmpty from "../../../components/Buttons/button-empty.vue";
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import pcImage from "/products/workspace/station1.webp";
+import pcImage from "/products/pc/main-pc.webp";
 import monitorsImage from "/products/monitors/screen1.webp";
-import peripheralsImage from "/products/peripherals/keyboard1.jpg";
+import peripheralsImage from "/products/peripherals/keyboard1.webp";
 </script>
 
 <template>
   <section
-    class="mt-20 flex h-full w-full flex-col items-center md:-mb-10 md:h-[70rem]">
+    class="mt-20 flex h-full w-full flex-col items-center md:-mb-10 md:h-[70rem] bg-k-light-grey py-20">
     <div
       class="md:grid-rows-7 flex h-full w-4/5 max-w-6xl flex-col items-center gap-4 md:grid md:w-11/12 md:grid-cols-6 md:gap-8 lg:w-4/5">
       <div
@@ -54,7 +54,7 @@ import peripheralsImage from "/products/peripherals/keyboard1.jpg";
         to="/monitors"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
-          class="scale-125 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+          class="object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95"
           :src="monitorsImage"
           alt="Triple monitor gaming setup"
           loading="lazy" />
@@ -62,7 +62,7 @@ import peripheralsImage from "/products/peripherals/keyboard1.jpg";
       <div
         class="order-4 col-span-3 row-span-2 overflow-hidden rounded-md bg-k-grey text-black md:order-none md:h-full">
         <img
-          class="scale-125 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+          class="object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95"
           :src="peripheralsImage"
           alt="Gaming peripherals and keycaps"
           loading="lazy" />

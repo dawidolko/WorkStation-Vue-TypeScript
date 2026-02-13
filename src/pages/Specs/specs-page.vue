@@ -43,14 +43,14 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
           <div
             v-for="component in getComponentsByCategory(category)"
             :key="component.id"
-            class="border border-k-grey rounded-lg p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
+            class="border border-k-grey p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
             <div class="flex flex-col sm:flex-row sm:items-start gap-6">
               <div
-                class="w-full h-48 sm:w-32 sm:h-32 rounded-lg overflow-hidden sm:flex-shrink-0">
+                class="w-full h-48 sm:w-32 sm:h-32 overflow-hidden sm:flex-shrink-0">
                 <img
                   :src="component.image"
                   :alt="component.name"
-                  class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
+                  class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg" />
               </div>
               <div class="flex-1">
                 <div class="flex items-center gap-3 mb-3">
@@ -74,7 +74,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
                 </p>
 
                 <div
-                  class="bg-k-light-grey p-4 rounded-lg group-hover:bg-k-grey transition-colors duration-300">
+                  class="bg-k-light-grey p-4 group-hover:bg-k-grey transition-colors duration-300">
                   <h4
                     class="font-semibold text-k-black mb-3 group-hover:text-k-main transition-colors duration-300">
                     Detailed specifications:

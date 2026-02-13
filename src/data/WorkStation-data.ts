@@ -21,11 +21,11 @@ export const WorkStationData: WorkStationDataType = {
       ],
       description:
         "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RX 9070xt.",
-      image: "/products/pc/main-pc.jpg",
+      image: "/products/pc/main-pc.webp",
       detailImages: [
-        "/products/pc/pc-inside.png",
-        "/products/pc/pc-back.png",
-        "/products/pc/pc-rgb.png",
+        "/products/pc/pc-inside.webp",
+        "/products/pc/pc-back.webp",
+        "/products/pc/pc-rgb.webp",
       ],
       type: "main",
     },
@@ -45,7 +45,7 @@ export const WorkStationData: WorkStationDataType = {
       ],
       description:
         "Laptop for mobile work and projects. Perfect for programming and development.",
-      image: "/products/laptop/macbook.jpg",
+      image: "/products/laptop/macbook.webp",
       type: "main",
     },
   ],
@@ -63,7 +63,7 @@ export const WorkStationData: WorkStationDataType = {
       ],
       description:
         "Two identical IIYAMA monitors as main setup for productivity.",
-      image: "/products/monitors/iiyama.jpg",
+      image: "/products/monitors/iiyama.webp",
       type: "main",
     },
     {
@@ -109,7 +109,7 @@ export const WorkStationData: WorkStationDataType = {
         "Weight: Ultra-light",
       ],
       description: "Wireless gaming mouse from Razer.",
-      image: "/products/peripherals/mouse-razer.jpg",
+      image: "/products/peripherals/mouse-razer.webp",
       type: "main",
     },
     {
@@ -123,7 +123,7 @@ export const WorkStationData: WorkStationDataType = {
         "Features: Multi-device",
       ],
       description: "Productivity mouse for laptop work.",
-      image: "/products/peripherals/mouse-logitech.jpg",
+      image: "/products/peripherals/mouse-logitech.webp",
       type: "secondary",
     },
     {
@@ -137,7 +137,7 @@ export const WorkStationData: WorkStationDataType = {
         "Connection: 2.4GHz Wireless",
       ],
       description: "Wireless gaming headset.",
-      image: "/products/peripherals/headset.jpg",
+      image: "/products/peripherals/headset.webp",
       type: "main",
     },
     {
@@ -164,7 +164,7 @@ export const WorkStationData: WorkStationDataType = {
         "Connectivity: Bluetooth, RCA, AUX",
       ],
       description: "Active EDIFIER speakers.",
-      image: "/products/audio/speakers.jpg",
+      image: "/products/audio/speakers.webp",
       type: "main",
     },
     {
@@ -198,6 +198,11 @@ export const WorkStationData: WorkStationDataType = {
       ],
       description: "Custom desk with height adjustment.",
       image: "/products/workspace/desk1.webp",
+      detailImages: [
+        "/products/workspace/desk2.webp",
+        "/products/workspace/desk3.webp",
+        "/products/workspace/desk4.webp",
+      ],
       type: "main",
     },
     {
@@ -210,7 +215,12 @@ export const WorkStationData: WorkStationDataType = {
         "Features: Full ergonomic support",
       ],
       description: "Ergonomic office chair.",
-      image: "/products/workspace/chair1.png",
+      image: "/products/workspace/chair1.webp",
+      detailImages: [
+        "/products/workspace/chair2.webp",
+        "/products/workspace/chair3.webp",
+        "/products/workspace/chair4.webp",
+      ],
       type: "main",
     },
   ],

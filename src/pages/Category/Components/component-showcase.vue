@@ -76,7 +76,7 @@ onMounted(() => {
       :class="flip === true ? 'col-start-2' : 'col-start-1'">
       <img
         loading="lazy"
-        class="relative aspect-square w-full object-cover transition duration-300 grayscale hover:grayscale-0 hover:scale-105"
+        class="relative aspect-square w-full object-cover transition duration-300 grayscale hover:grayscale-0 hover:scale-95"
         :src="props.item.image"
         :alt="props.item.name" />
     </div>

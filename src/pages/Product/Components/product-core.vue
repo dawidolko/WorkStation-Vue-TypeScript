@@ -52,7 +52,7 @@ const props = defineProps<{
       class="order-first overflow-hidden rounded pb-10 lg:order-none lg:col-span-1 lg:col-start-1 lg:row-span-full lg:pb-0">
       <img
         loading="lazy"
-        class="relative aspect-square object-cover transition duration-300 hover:scale-105"
+        class="relative aspect-square object-cover transition duration-300 hover:scale-95 grayscale hover:grayscale-0"
         :src="props.item.image"
         :alt="props.item.name" />
     </div>

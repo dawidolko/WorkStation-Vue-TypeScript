@@ -21,11 +21,11 @@ let item = computed(() => {
 
     <div v-if="item" class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">
       <div class="grid gap-8 md:grid-cols-2 mb-16">
-        <div class="rounded-lg overflow-hidden">
+        <div class="overflow-hidden">
           <img
             :src="item.image"
             :alt="item.name"
-            class="w-full h-full object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110" />
+            class="w-full h-full object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
         </div>
         <div class="flex flex-col justify-center">
           <div class="mb-4">
@@ -41,7 +41,7 @@ let item = computed(() => {
           </h2>
           <p class="text-k-black opacity-70 mb-6">{{ item.description }}</p>
 
-          <div class="bg-k-light-grey p-6 rounded-lg">
+          <div class="bg-k-light-grey p-6">
             <h3 class="text-xl font-semibold text-k-black mb-4">Full Specs:</h3>
             <div class="grid gap-3">
               <div
@@ -65,11 +65,11 @@ let item = computed(() => {
           <div
             v-for="(image, index) in item.detailImages"
             :key="index"
-            class="rounded-lg overflow-hidden">
+            class="overflow-hidden">
             <img
               :src="image"
               :alt="`${item.name} detail ${index + 1}`"
-              class="w-full h-64 object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110" />
+              class="w-full h-64 object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
           </div>
         </div>
       </div>

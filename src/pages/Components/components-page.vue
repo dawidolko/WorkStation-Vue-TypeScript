@@ -31,7 +31,7 @@ import {
           </h2>
           <router-link
             :to="`/${category}`"
-            class="text-k-main font-semibold hover:text-k-black px-4 py-2 border border-k-main rounded-lg hover:bg-k-main transition-all duration-300 text-center">
+            class="text-k-main font-semibold hover:text-k-black px-4 py-2 border border-k-main hover:bg-k-main transition-all duration-300 text-center">
             View all components
           </router-link>
         </div>
@@ -45,7 +45,7 @@ import {
               <img
                 :src="component.image"
                 :alt="component.name"
-                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-110" />
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-95" />
               <div
                 class="absolute inset-0 bg-black opacity-20 group-hover:opacity-0 transition-opacity duration-500"></div>
             </div>

@@ -31,7 +31,7 @@ onBeforeMount(() => {
           :to="`/${item.category}/${item.id}`"
           class="overflow-hidden rounded">
           <img
-            class="object-center filter grayscale transition duration-300 hover:grayscale-0 hover:scale-110"
+            class="object-center filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95"
             :src="item.image"
             alt=""
             loading="lazy" />
