@@ -50,7 +50,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
                 <img
                   :src="component.image"
                   :alt="component.name"
-                  class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg" />
+                  class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95" />
               </div>
               <div class="flex-1">
                 <div class="flex items-center gap-3 mb-3">

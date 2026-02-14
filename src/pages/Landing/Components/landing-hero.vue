@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import mxupImage from "/products/workspace/station2.webp";
+import mxupImage from "/products/workspace/mystation (2).webp";
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 import bannerImage from "/icons/WorkStation-icon.png";
-import keyboardsImage from "/products/workspace/station1.webp";
+import keyboardsImage from "/products/workspace/mystation (1).webp";
 import keycapsImage from "/products/peripherals/keyboard1.jpg";
 import deskmatsImage from "/products/monitors/screen1.webp";
 import { meta, metaContainer } from "./meta-types.ts";

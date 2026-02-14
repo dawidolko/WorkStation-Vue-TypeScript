@@ -16,7 +16,7 @@ const categoryName = getCategoryDisplayName(props.category);
     :to="`/${props.category}`"
     class="group grid max-h-[14rem] w-full grid-cols-1 grid-rows-3 lg:max-h-[16rem]">
     <img
-      class="z-10 col-span-full row-span-2 row-start-1 aspect-square max-h-[18rem] place-self-center object-cover transition duration-300 group-hover:-translate-y-1 grayscale hover:grayscale-0 transform hover:scale-95 md:mb-3 md:max-h-[24rem]"
+      class="z-10 col-span-full row-span-2 row-start-1 aspect-square max-h-[18rem] place-self-center object-cover transition duration-300 group-hover:-translate-y-1 grayscale hover:grayscale-0 transform hover:scale-105 md:mb-3 md:max-h-[24rem]"
       :class="props.imgClass"
       :src="props.src"
       :alt="`${categoryName} category box image`"

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import ButtonEmpty from "../../../components/Buttons/button-empty.vue";
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import pcImage from "/products/pc/main-pc.webp";
-import monitorsImage from "/products/monitors/screen1.webp";
-import peripheralsImage from "/products/peripherals/keyboard1.webp";
+import pcImage from "/products/pc/computer (5).webp";
+import monitorsImage from "/products/workspace/mystation (2).webp";
+import peripheralsImage from "/products/workspace/mystation (1).webp";
 </script>
 
 <template>
@@ -54,7 +54,7 @@ import peripheralsImage from "/products/peripherals/keyboard1.webp";
         to="/monitors"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
-          class="object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95"
+          class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="monitorsImage"
           alt="Triple monitor gaming setup"
           loading="lazy" />
@@ -62,7 +62,7 @@ import peripheralsImage from "/products/peripherals/keyboard1.webp";
       <div
         class="order-4 col-span-3 row-span-2 overflow-hidden rounded-md bg-k-grey text-black md:order-none md:h-full">
         <img
-          class="object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95"
+          class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="peripheralsImage"
           alt="Gaming peripherals and keycaps"
           loading="lazy" />

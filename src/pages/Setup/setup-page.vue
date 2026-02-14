@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import Navigation from "../../components/navigation-global.vue";
 import Footer from "../../components/footer-global.vue";
-import setupMainImage from "/products/workspace/station3.webp";
-import setupSideImage from "/products/workspace/station1.webp";
-import setupTopImage from "/products/workspace/station2.webp";
-import setupCloseImage from "/products/workspace/station3.webp";
+import setupMainImage from "/products/workspace/mystation (3).webp";
+import setupSideImage from "/products/workspace/mystation (1).webp";
+import setupTopImage from "/products/workspace/mystation (2).webp";
+import setupCloseImage from "/products/workspace/mystation (3).webp";
 </script>
 
 <template>
@@ -21,8 +21,9 @@ import setupCloseImage from "/products/workspace/station3.webp";
   <main
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section
-      class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32 bg-white py-10">
-      <div class="grid gap-8 md:grid-cols-2">
+      class="mt-16 flex w-full flex-col items-center md:mt-32 bg-white py-10">
+      <div class="w-4/5 max-w-6xl">
+        <div class="grid gap-8 md:grid-cols-2">
         <div>
           <h2 class="text-3xl font-bold text-k-black mb-4">My WorkStation</h2>
           <p class="text-black opacity-70 mb-6">
@@ -42,13 +43,15 @@ import setupCloseImage from "/products/workspace/station3.webp";
           <img
             :src="setupMainImage"
             alt="Main setup view"
-            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg" />
+            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg" />
         </div>
+      </div>
       </div>
     </section>
 
     <section
-      class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32 bg-k-light-grey py-10">
+      class="mt-16 flex w-full flex-col items-center md:mt-32 bg-k-light-grey py-10">
+      <div class="w-4/5 max-w-6xl">
       <h2 class="text-3xl font-bold text-k-black mb-8 text-center">
         Different Perspectives
       </h2>
@@ -57,7 +60,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
           <img
             :src="setupSideImage"
             alt="Side view"
-            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Side View</h3>
@@ -70,7 +73,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
           <img
             :src="setupTopImage"
             alt="Top view"
-            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Top View</h3>
@@ -83,7 +86,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
           <img
             :src="setupCloseImage"
             alt="Close up"
-            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Details</h3>
@@ -93,10 +96,12 @@ import setupCloseImage from "/products/workspace/station3.webp";
           </div>
         </div>
       </div>
+      </div>
     </section>
 
     <section
-      class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32 mb-16 bg-white py-10">
+      class="mt-16 flex w-full flex-col items-center md:mt-32 mb-16 bg-white py-10">
+      <div class="w-4/5 max-w-6xl">
       <h2 class="text-3xl font-bold text-k-black mb-8 text-center">
         Key Components
       </h2>
@@ -146,6 +151,7 @@ import setupCloseImage from "/products/workspace/station3.webp";
             Custom desk with height adjustment and ergonomic chair
           </p>
         </div>
+      </div>
       </div>
     </section>
 

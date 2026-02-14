@@ -4,7 +4,7 @@ import workspaceImage from "/products/peripherals/bolid3.webp";
 
 <template>
   <section
-    class="mt-20 flex h-full flex-col items-center justify-center md:mt-32 lg:mt-40 bg-white py-20">
+    class="mt-20 flex h-full flex-col items-center justify-center md:mt-32 lg:mt-40 bg-k-light-grey py-20">
     <div
       class="flex h-full w-4/5 max-w-6xl flex-col items-center gap-10 md:h-[38rem] md:w-11/12 md:flex-row md:items-start md:justify-between md:gap-32 lg:h-[40rem] lg:w-4/5">
       <div
@@ -29,7 +29,7 @@ import workspaceImage from "/products/peripherals/bolid3.webp";
         class="order-first aspect-square h-full w-full overflow-hidden rounded-md md:order-last md:aspect-auto">
         <img
           loading="lazy"
-          class="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95"
+          class="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="workspaceImage"
           alt="Professional workspace setup with premium peripherals"
           srcset="" />

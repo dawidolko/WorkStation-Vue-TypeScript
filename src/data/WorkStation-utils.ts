@@ -14,7 +14,14 @@ export function getComponent(category: string, id: number): Component | null {
 }
 
 export function getAllCategories(): string[] {
-  return Object.keys(WorkStationData);
+  const categories = Object.keys(WorkStationData);
+  
+  // Sort categories by component count (descending)
+  return categories.sort((a, b) => {
+    const countA = WorkStationData[a].length;
+    const countB = WorkStationData[b].length;
+    return countB - countA;
+  });
 }
 
 export function getMainComponents(): Component[] {

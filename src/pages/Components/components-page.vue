@@ -45,7 +45,7 @@ import {
               <img
                 :src="component.image"
                 :alt="component.name"
-                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-95" />
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" />
               <div
                 class="absolute inset-0 bg-black opacity-20 group-hover:opacity-0 transition-opacity duration-500"></div>
             </div>

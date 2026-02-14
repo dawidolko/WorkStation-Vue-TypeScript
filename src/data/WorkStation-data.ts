@@ -21,11 +21,22 @@ export const WorkStationData: WorkStationDataType = {
       ],
       description:
         "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RX 9070xt.",
-      image: "/products/pc/main-pc.webp",
+      image: "/products/pc/computer (5).webp",
       detailImages: [
         "/products/pc/pc-inside.webp",
         "/products/pc/pc-back.webp",
         "/products/pc/pc-rgb.webp",
+        "/products/pc/computer (1).webp",
+        "/products/pc/computer (2).webp",
+        "/products/pc/computer (3).webp",
+        "/products/pc/computer (4).webp",
+        "/products/pc/computer (5).webp",
+        "/products/pc/computer (6).webp",
+        "/products/pc/computer (7).webp",
+        "/products/pc/computer (8).webp",
+        "/products/pc/computer (9).webp",
+        "/products/pc/computer (10).webp",
+        "/products/pc/computer (11).webp",
       ],
       type: "main",
     },
@@ -150,6 +161,24 @@ export const WorkStationData: WorkStationDataType = {
       image: "/products/peripherals/mouse-bungee.webp",
       type: "secondary",
     },
+    {
+      id: 6,
+      category: "peripherals",
+      name: "Printer",
+      model: "Epson L3560",
+      specs: [
+        "Type: Multifunction Inkjet Printer",
+        "Print: Color & Black/White",
+        "Features: Print, Scan, Copy",
+        "Connectivity: Wi-Fi, USB",
+      ],
+      description: "Epson multifunction printer for home and office use.",
+      image: "/products/peripherals/printer.webp",
+      detailImages: [
+        "/products/peripherals/printer2.webp",
+      ],
+      type: "secondary",
+    },
   ],
 
   audio: [
@@ -182,6 +211,38 @@ export const WorkStationData: WorkStationDataType = {
         "Professional RGB USB condenser microphone with excellent sound quality.",
       image: "/products/audio/microphone.webp",
       type: "main",
+    },
+    {
+      id: 3,
+      category: "audio",
+      name: "Camera",
+      model: "Panasonic Lumix G7",
+      specs: [
+        "Type: Mirrorless Camera",
+        "Sensor: Micro Four Thirds",
+        "Video: 4K recording",
+        "Use: Content creation and photography",
+      ],
+      description:
+        "Panasonic Lumix G7 mirrorless camera for video content and photography.",
+      image: "/products/camera/lumix-g7.webp",
+      type: "secondary",
+    },
+    {
+      id: 4,
+      category: "audio",
+      name: "Action Camera",
+      model: "DJI Action 4",
+      specs: [
+        "Type: Action Camera",
+        "Video: 4K/120fps",
+        "Features: Waterproof, stabilization",
+        "Use: Action shots and vlogging",
+      ],
+      description:
+        "DJI Action 4 for dynamic action shots and outdoor content creation.",
+      image: "/products/camera/action4-front.webp",
+      type: "secondary",
     },
   ],
 
