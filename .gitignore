@@ -137,3 +137,6 @@ dist
 
 # Machine-local Claude settings
 .claude/settings.local.json
+
+# macOS finder metadata
+.DS_Store
