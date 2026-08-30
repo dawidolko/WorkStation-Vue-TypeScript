@@ -16,7 +16,7 @@ const props = defineProps<{
         class="overflow-hidden rounded-md col-span-3 col-start-1 row-span-1 row-start-1">
         <img
           loading="lazy"
-          class="aspect-video h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
+          class="aspect-video h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
           :src="props.topSrc"
           alt="Component detail view" />
       </div>
@@ -24,7 +24,7 @@ const props = defineProps<{
         class="overflow-hidden rounded-md col-span-3 col-start-1 row-span-1 row-start-2">
         <img
           loading="lazy"
-          class="aspect-video h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
+          class="aspect-video h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
           :src="props.botSrc"
           alt="Component detail view" />
       </div>
@@ -32,7 +32,7 @@ const props = defineProps<{
         class="overflow-hidden rounded-md order-first col-span-4 col-start-4 row-start-1 row-end-3 lg:order-none">
         <img
           loading="lazy"
-          class="aspect-square h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
+          class="aspect-square h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-95 lg:aspect-auto"
           :src="props.rightSrc"
           alt="Component detail view" />
       </div>

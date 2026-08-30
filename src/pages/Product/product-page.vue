@@ -25,7 +25,7 @@ let item = computed(() => {
           <img
             :src="item.image"
             :alt="item.name"
-            class="w-full h-full object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
+            class="w-full h-full object-contain filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
         </div>
         <div class="flex flex-col justify-center">
           <div class="mb-4">
@@ -69,7 +69,7 @@ let item = computed(() => {
             <img
               :src="image"
               :alt="`${item.name} detail ${index + 1}`"
-              class="w-full h-64 object-cover filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
+              class="w-full h-64 object-contain filter grayscale transition duration-300 hover:grayscale-0 hover:scale-95" />
           </div>
         </div>
       </div>
