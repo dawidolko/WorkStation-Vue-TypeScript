@@ -30,7 +30,10 @@
       content="Kompleksowa prezentacja mojego stanowiska pracy i gier z komponentami najwyższej jakości." />
     <meta property="twitter:image" content="/products/setup/main-setup.jpg" />
 
-    <link rel="icon" type="image/png" href="/icons/WorkStation-icon.png" />
+    <!-- SVG first: transparent, so it sits correctly on a dark tab strip. The PNG
+         stays as a fallback for browsers that do not take SVG favicons. -->
+    <link rel="icon" type="image/svg+xml" href="/icons/workstation-icon.svg" />
+    <link rel="alternate icon" type="image/png" href="/icons/WorkStation-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

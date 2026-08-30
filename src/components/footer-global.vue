@@ -64,7 +64,10 @@ import instagramIcon from "/icons/instagram.svg";
         <nav class="flex flex-row gap-4 md:self-end">
           <a
             class="transition duration-300 hover:-translate-y-0.5"
-            href="https://www.facebook.com/olkodawid/">
+            href="https://www.facebook.com/olkodawid/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook profile (opens in a new tab)">
             <img
               loading="lazy"
               class="aspect-square h-6"
@@ -73,7 +76,10 @@ import instagramIcon from "/icons/instagram.svg";
           </a>
           <a
             class="transition duration-300 hover:-translate-y-0.5"
-            href="https://www.instagram.com/dawid_olko/">
+            href="https://www.instagram.com/dawid_olko/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram profile (opens in a new tab)">
             <img
               loading="lazy"
               class="aspect-square h-6"

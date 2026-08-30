@@ -16,7 +16,7 @@ let item = computed(() => {
 </script>
 
 <template>
-  <main class="flex h-full w-screen flex-col items-center bg-white">
+  <main id="main-content" tabindex="-1" class="flex h-full w-screen flex-col items-center bg-white">
     <Navigation color="black" />
 
     <div v-if="item" class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">

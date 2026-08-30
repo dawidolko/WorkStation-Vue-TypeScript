@@ -11,7 +11,7 @@ import Footer from "../../components/footer-global.vue";
   <div
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <Navigation color="k-black" />
-    <main class="h-full w-screen">
+    <main id="main-content" tabindex="-1" class="h-full w-screen">
       <WorkStationHero />
       <ComponentsGrid />
       <StatsSection />

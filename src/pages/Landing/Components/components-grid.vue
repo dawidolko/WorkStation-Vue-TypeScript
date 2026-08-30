@@ -18,7 +18,7 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
           class="group order-1 flex h-full w-full flex-col items-center justify-center md:order-none md:grid md:grid-cols-7">
           <router-link
             to="/pc"
-            href=""
+            aria-label="Gaming PC — view the build"
             class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden md:col-span-4 md:px-10">
             <img
               :src="pcImage"
@@ -52,6 +52,7 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
       </div>
       <router-link
         to="/monitors"
+        aria-label="Monitors — view the setup"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
           class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"

@@ -3,7 +3,7 @@ import ButtonSolid from "../../components/Buttons/button-solid.vue";
 </script>
 
 <template>
-  <main
+  <main id="main-content" tabindex="-1"
     class="flex h-screen w-screen flex-col items-center justify-center bg-black text-white">
     <div
       class="flex max-h-screen flex-col items-center justify-center gap-6 p-10 text-center lg:w-1/3">

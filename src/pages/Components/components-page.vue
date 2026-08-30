@@ -19,7 +19,7 @@ import {
       </h1>
     </div>
   </header>
-  <main
+  <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">
       <div v-for="category in getAllCategories()" :key="category" class="mb-20">

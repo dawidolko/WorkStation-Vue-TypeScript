@@ -18,7 +18,7 @@ import setupCloseImage from "/products/workspace/mystation (3).webp";
       </h1>
     </div>
   </header>
-  <main
+  <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section
       class="mt-16 flex w-full flex-col items-center md:mt-32 bg-white py-10">
