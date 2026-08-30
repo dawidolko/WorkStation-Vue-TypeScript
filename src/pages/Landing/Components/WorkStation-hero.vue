@@ -36,7 +36,7 @@ import setupMainImage from "/products/workspace/mystation (2).webp";
           <img
             :src="setupMainImage"
             alt="Ultimate Gaming Setup - Professional workstation with multiple monitors, RGB lighting and premium peripherals"
-            class="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-2xl"
+            class="w-full h-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-2xl"
             loading="lazy" />
         </div>
 

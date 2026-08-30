@@ -29,7 +29,7 @@ import workspaceImage from "/products/peripherals/bolid3.webp";
         class="order-first aspect-square h-full w-full overflow-hidden rounded-md md:order-last md:aspect-auto">
         <img
           loading="lazy"
-          class="h-full w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
+          class="h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="workspaceImage"
           alt="Professional workspace setup with premium peripherals"
           srcset="" />
