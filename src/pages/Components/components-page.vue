@@ -41,11 +41,20 @@ import {
             v-for="component in getComponentsByCategory(category)"
             :key="component.id"
             class="group rounded-xl overflow-hidden bg-k-grey hover:bg-white border-2 border-transparent hover:border-k-main hover:shadow-2xl transition-all duration-500 cursor-pointer transform hover:-translate-y-2">
-            <div class="aspect-square overflow-hidden relative">
+            <!--
+              Zdjecia produktow maja wypalone, rozne tla (od bialego po ciemna
+              fotografie) i rozne proporcje — najczesciej szersze niz wysokie.
+              W kwadratowym kadrze `object-contain` zostawial wiec puste pasy
+              nad i pod obrazem, w kolorze karty, co czytalo sie jak dwa rozne
+              odcienie tla. Kadr o proporcji 4:3 odpowiada ksztaltowi zdjec,
+              a `object-cover` wypelnia go w calosci — pasy znikaja, a produkt
+              pozostaje widoczny, bo przyciecie jest minimalne.
+            -->
+            <div class="aspect-[4/3] overflow-hidden relative">
               <img
                 :src="component.image"
                 :alt="component.name"
-                class="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" />
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" />
               <div
                 class="absolute inset-0 bg-black opacity-20 group-hover:opacity-0 transition-opacity duration-500"></div>
             </div>
