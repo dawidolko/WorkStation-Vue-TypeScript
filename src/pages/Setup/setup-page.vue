@@ -60,7 +60,7 @@ import setupCloseImage from "/products/workspace/mystation (3).webp";
           <img
             :src="setupSideImage"
             alt="Side view"
-            class="w-full h-64 object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Side View</h3>
@@ -73,7 +73,7 @@ import setupCloseImage from "/products/workspace/mystation (3).webp";
           <img
             :src="setupTopImage"
             alt="Top view"
-            class="w-full h-64 object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Top View</h3>
@@ -86,7 +86,7 @@ import setupCloseImage from "/products/workspace/mystation (3).webp";
           <img
             :src="setupCloseImage"
             alt="Close up"
-            class="w-full h-64 object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
+            class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl" />
           <div
             class="p-4 bg-k-grey group-hover:bg-k-main transition-colors duration-300">
             <h3 class="font-semibold text-k-black">Details</h3>
