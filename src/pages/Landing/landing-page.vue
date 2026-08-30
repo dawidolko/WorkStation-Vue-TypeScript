@@ -13,9 +13,16 @@ import Footer from "../../components/footer-global.vue";
     <Navigation color="k-black" />
     <main id="main-content" tabindex="-1" class="h-full w-screen">
       <WorkStationHero />
-      <ComponentsGrid />
+      <!--
+        Cel skip-linka: pierwsza tresc pod banerem hero. Skok na poczatek
+        <main> ladowal wizualnie na banerze, wiec uzytkownik klawiatury i tak
+        musial przewijac dalej.
+      -->
+      <div id="main-start" tabindex="-1">
+        <ComponentsGrid />
       <StatsSection />
       <AboutSection />
+      </div>
     </main>
     <Footer />
   </div>
