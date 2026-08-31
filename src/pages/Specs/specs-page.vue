@@ -40,10 +40,19 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
         </h2>
 
         <div class="space-y-8">
-          <div
+          <!--
+            Cala karta jest odnosnikiem do szczegolow komponentu.
+
+            Wczesniej byl to zwykly <div> z klasa `cursor-pointer` — wygladal
+            na klikalny, ale nic nie robil i byl niedostepny z klawiatury.
+            `router-link` daje jedno i drugie: przejscie do /{kategoria}/{id}
+            oraz poprawna semantyke odnosnika.
+          -->
+          <router-link
             v-for="component in getComponentsByCategory(category)"
             :key="component.id"
-            class="border border-k-grey p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
+            :to="`/${component.category}/${component.id}`"
+            class="block border border-k-grey p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
             <div class="flex flex-col sm:flex-row sm:items-start gap-6">
               <div
                 class="w-full h-48 sm:w-32 sm:h-32 overflow-hidden sm:flex-shrink-0">
@@ -95,7 +104,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
                 </div>
               </div>
             </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </section>

@@ -97,8 +97,13 @@ import {
                     {{ component.specs.length }} specifications
                   </span>
                 </div>
+                <!--
+                  Odnosnik prowadzi do konkretnego komponentu, nie do listy
+                  kategorii — "Details" sugerowalo szczegoly, a wracalo na
+                  strone, z ktorej uzytkownik wlasnie kliknal.
+                -->
                 <router-link
-                  :to="`/${component.category}`"
+                  :to="`/${component.category}/${component.id}`"
                   class="text-sm text-k-main font-bold hover:text-k-black px-3 py-1 rounded-md hover:bg-k-main transition-all duration-300">
                   Details →
                 </router-link>
