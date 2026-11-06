@@ -41,12 +41,11 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
 
         <div class="space-y-8">
           <!--
-            Cala karta jest odnosnikiem do szczegolow komponentu.
+            The whole card links to the component details.
 
-            Wczesniej byl to zwykly <div> z klasa `cursor-pointer` — wygladal
-            na klikalny, ale nic nie robil i byl niedostepny z klawiatury.
-            `router-link` daje jedno i drugie: przejscie do /{kategoria}/{id}
-            oraz poprawna semantyke odnosnika.
+            It used to be a plain <div> with a `cursor-pointer` class: it looked clickable
+            but did nothing and was not keyboard accessible. `router-link` gives both:
+            navigation to /{category}/{id} and correct link semantics.
           -->
           <router-link
             v-for="component in getComponentsByCategory(category)"

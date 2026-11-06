@@ -42,13 +42,12 @@ import {
             :key="component.id"
             class="group rounded-xl overflow-hidden bg-k-grey hover:bg-white border-2 border-transparent hover:border-k-main hover:shadow-2xl transition-all duration-500 cursor-pointer transform hover:-translate-y-2">
             <!--
-              Zdjecia produktow maja wypalone, rozne tla (od bialego po ciemna
-              fotografie) i rozne proporcje — najczesciej szersze niz wysokie.
-              W kwadratowym kadrze `object-contain` zostawial wiec puste pasy
-              nad i pod obrazem, w kolorze karty, co czytalo sie jak dwa rozne
-              odcienie tla. Kadr o proporcji 4:3 odpowiada ksztaltowi zdjec,
-              a `object-cover` wypelnia go w calosci — pasy znikaja, a produkt
-              pozostaje widoczny, bo przyciecie jest minimalne.
+              Product photos have blown-out, varying backgrounds (from white to dark
+              photography) and varying proportions, usually wider than tall. In a square
+              crop `object-contain` left empty bands above and below the image in the card
+              colour, which read as two different background shades. A 4:3 crop matches the
+              photo shape and `object-cover` fills it entirely: the bands disappear and the
+              product stays visible because the cropping is minimal.
             -->
             <div class="aspect-[4/3] overflow-hidden relative">
               <img
@@ -98,9 +97,8 @@ import {
                   </span>
                 </div>
                 <!--
-                  Odnosnik prowadzi do konkretnego komponentu, nie do listy
-                  kategorii — "Details" sugerowalo szczegoly, a wracalo na
-                  strone, z ktorej uzytkownik wlasnie kliknal.
+                  The link leads to the specific component, not the category list: "Details"
+                  suggested details but returned to the page the user had just clicked from.
                 -->
                 <router-link
                   :to="`/${component.category}/${component.id}/`"
