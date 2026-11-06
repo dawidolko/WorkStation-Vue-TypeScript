@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://workstation.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="WorkStation-Vue-TypeScript: frontend. Interactive Gaming & Work Setup Showcase with Vue 3 + TypeScript - Present a complete hardware workspace as a fast, SEO-ready single-page application" width="100%"></a>
+</p>
+
 # WorkStation-Vue-TypeScript
 
 > 🚀 **Interactive Gaming & Work Setup Showcase with Vue 3 + TypeScript** - Present a complete hardware workspace as a fast, SEO-ready single-page application
@@ -12,6 +16,8 @@ The repository demonstrates a typed data-driven architecture: every component of
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-06B6D4?logo=tailwindcss&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-13.1-17202C?logo=cypress&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+**[Live site](https://workstation.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -153,6 +159,12 @@ node convert-images.js   # convert public/products/ images to WebP via sharp
 
 ---
 
+## ♿ Accessibility
+
+An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -195,12 +207,6 @@ WorkStation-Vue-TypeScript/
 
 ---
 
-## 🌍 Live Demo
-
-The project is deployed and available at: **[https://workstation.dawidolko.pl](https://workstation.dawidolko.pl)**
-
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -209,7 +215,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created by **[Dawid Olko](https://github.com/dawidolko)**
+**Dawid Olko** · Fullstack / AI Developer
 
-- **Website** — [dawidolko.pl](https://dawidolko.pl/)
-- **LinkedIn** — [@dawidolko](https://www.linkedin.com/in/dawidolko/)
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
