@@ -11,7 +11,7 @@ import workspaceImage from "/products/peripherals/bolid3.webp";
         class="flex h-full flex-col items-center justify-center text-center md:w-4/5 md:items-start md:text-start">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
           Creating the perfect <br class="hidden xl:inline" />
-          <span class="text-k-main">workspace</span>
+          <span class="text-k-main-dark">workspace</span>
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
           Located at the heart of Berlin City, WorkplayHub is the premier
@@ -31,8 +31,7 @@ import workspaceImage from "/products/peripherals/bolid3.webp";
           loading="lazy"
           class="h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="workspaceImage"
-          alt="Professional workspace setup with premium peripherals"
-          srcset="" />
+          alt="Professional workspace setup with premium peripherals" />
       </div>
     </div>
   </section>

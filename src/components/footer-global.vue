@@ -24,6 +24,7 @@ import instagramIcon from "/icons/instagram.svg";
           WorkStation
         </router-link>
         <nav
+          aria-label="Footer"
           class="flex flex-col items-center justify-between gap-6 md:flex-row md:items-start md:gap-10">
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
@@ -34,19 +35,19 @@ import instagramIcon from "/icons/instagram.svg";
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
             active-class="!text-k-main underline"
-            to="/setup"
+            to="/setup/"
             >Setup
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
             active-class="!text-k-main underline"
-            to="/components"
+            to="/components/"
             >Components
           </router-link>
           <router-link
             class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
             active-class="!text-k-main underline"
-            to="/specs"
+            to="/specs/"
             >Specs
           </router-link>
         </nav>
@@ -61,7 +62,7 @@ import instagramIcon from "/icons/instagram.svg";
           highest quality components. From a powerful PC with RX 9070xt to a
           professional audio setup - every detail has been carefully selected.
         </p>
-        <nav class="flex flex-row gap-4 md:self-end">
+        <nav class="flex flex-row gap-4 md:self-end" aria-label="Social media">
           <a
             class="transition duration-300 hover:-translate-y-0.5"
             href="https://www.facebook.com/olkodawid/"

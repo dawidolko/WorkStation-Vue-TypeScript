@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         'k-main': '#FFC700',
+        'k-main-dark': '#7A5E00',
         'k-black': '#0E0E0E',
         'k-dark-grey': '#141414',
         'k-grey': '#F1F1F1',

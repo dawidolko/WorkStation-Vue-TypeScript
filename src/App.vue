@@ -1,13 +1,8 @@
 <script setup lang="ts">
 /*
- * Obsluga skip-linka.
- *
- * Sam href="#main-content" przenosil focus na poczatek landmarku <main>,
- * ktory na stronie glownej zaczyna sie banerem hero — uzytkownik klawiatury
- * ladowal wiec wizualnie na banerze i nadal musial przewijac do tresci.
- *
- * Preferujemy #main-start (pierwsza tresc pod hero), a #main-content zostaje
- * fallbackiem dla podstron, ktore takiego znacznika nie definiuja.
+ * The bare href moved focus to the start of <main>, which on the home page is the
+ * hero banner, so a keyboard user still had to scroll. #main-start is the first
+ * content under the hero, with #main-content as the fallback for other routes.
  */
 function focusMainContent(event: MouseEvent) {
   const target =

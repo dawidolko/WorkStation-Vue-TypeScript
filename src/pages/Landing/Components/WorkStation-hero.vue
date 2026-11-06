@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import setupMainImage from "/products/workspace/mystation (2).webp";
+import setupMainImage from "/products/workspace/mystation-2.webp";
 </script>
 
 <template>
@@ -25,7 +25,7 @@ import setupMainImage from "/products/workspace/mystation (2).webp";
           premium gaming equipment and professional workspace solutions.
         </p>
         <ButtonSolid
-          to="/components"
+          to="/components/"
           content="explore setup"
           color="light"
           add="font-bold mb-10" />
@@ -35,9 +35,13 @@ import setupMainImage from "/products/workspace/mystation (2).webp";
         <div class="mx-auto overflow-hidden">
           <img
             :src="setupMainImage"
+            srcset="/products/workspace/mystation-2-640.webp 640w, /products/workspace/mystation-2.webp 1280w"
+            sizes="(min-width: 1280px) 1120px, 100vw"
             alt="Ultimate Gaming Setup - Professional workstation with multiple monitors, RGB lighting and premium peripherals"
             class="w-full h-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105 shadow-2xl"
-            loading="lazy" />
+            width="1280"
+            height="960"
+            fetchpriority="high" />
         </div>
 
         <div

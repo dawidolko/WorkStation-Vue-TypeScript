@@ -1,0 +1,132 @@
+[
+  {
+    "path": "/",
+    "title": "WorkStation | Gaming and Work Setup Showcase",
+    "description": "Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript."
+  },
+  {
+    "path": "/setup/",
+    "title": "Setup Overview | WorkStation Gaming and Work Station",
+    "description": "Complete overview of my work and gaming station with detailed photos of the desk, the monitors and the PC from every side."
+  },
+  {
+    "path": "/components/",
+    "title": "All Components | WorkStation Hardware Overview",
+    "description": "Detailed overview of every WorkStation component: the PC, laptop, monitors, peripherals, audio gear and the workspace around them."
+  },
+  {
+    "path": "/specs/",
+    "title": "Full Specifications | WorkStation Hardware Details",
+    "description": "Complete technical specifications of all the components in my setup, from the CPU and graphics card to the peripherals and audio."
+  },
+  {
+    "path": "/pc/",
+    "title": "Gaming PC Components | WorkStation",
+    "description": "The desktop at the heart of the setup: a Ryzen 7 5800X gaming and work computer with its full list of parts and photos."
+  },
+  {
+    "path": "/laptop/",
+    "title": "Laptop for Work and Travel | WorkStation",
+    "description": "The laptop in this setup, used for work away from the desk, with its specifications, photos and a short description."
+  },
+  {
+    "path": "/monitors/",
+    "title": "Monitors in the Setup | WorkStation",
+    "description": "The three-monitor layout of this workstation: two IIYAMA G-MASTER displays for productivity and an HP 25x for gaming."
+  },
+  {
+    "path": "/peripherals/",
+    "title": "Peripherals in the Setup | WorkStation",
+    "description": "Keyboard, mice, headset, mouse bungee and printer used every day at this workstation, each with specifications and photos."
+  },
+  {
+    "path": "/audio/",
+    "title": "Audio and Camera Gear | WorkStation Setup",
+    "description": "Speakers, microphone and cameras in this workstation, from EDIFIER monitors to the HyperX QuadCast S and a DJI Action 4."
+  },
+  {
+    "path": "/workspace/",
+    "title": "Desk and Chair | WorkStation Workspace",
+    "description": "The workspace behind the setup: a custom height-adjustable desk with an oak top and an ergonomic office chair."
+  },
+  {
+    "path": "/pc/1/",
+    "title": "Ryzen 7 5800X + RX 9070xt | WorkStation Gaming PC",
+    "description": "My main computer for work and gaming. Powerful machine with Ryzen 7 5800X and RX 9070xt. Specifications and photos from my WorkStation setup."
+  },
+  {
+    "path": "/monitors/1/",
+    "title": "IIYAMA G-MASTER GB2530HSU | WorkStation Main Monitor x2",
+    "description": "Two identical IIYAMA monitors as main setup for productivity. Part of my WorkStation setup, with specifications and photos of the Main Monitor x2."
+  },
+  {
+    "path": "/monitors/2/",
+    "title": "HP 25x | WorkStation Gaming Monitor",
+    "description": "Third HP monitor with high refresh rate for gaming. Part of my WorkStation setup, with specifications and photos of the Gaming Monitor."
+  },
+  {
+    "path": "/peripherals/1/",
+    "title": "Razer BlackWidow Pro V4 | WorkStation Keyboard",
+    "description": "Mechanical Razer keyboard for gaming and work. Part of my WorkStation setup, with specifications and photos of the Keyboard."
+  },
+  {
+    "path": "/peripherals/2/",
+    "title": "Razer Viper V2 Pro | WorkStation Main Mouse",
+    "description": "Wireless gaming mouse from Razer. Part of my WorkStation setup, with specifications and photos of the Main Mouse."
+  },
+  {
+    "path": "/peripherals/3/",
+    "title": "Logitech MX3 | WorkStation Laptop Mouse",
+    "description": "Productivity mouse for laptop work. Part of my WorkStation setup, with specifications and photos of the Laptop Mouse."
+  },
+  {
+    "path": "/peripherals/4/",
+    "title": "Razer BlackShark V2 Pro | WorkStation Headset",
+    "description": "Wireless gaming headset. Part of my WorkStation setup, with specifications and photos of the Headset."
+  },
+  {
+    "path": "/peripherals/5/",
+    "title": "Razer Mouse Bungee | WorkStation Mouse Bungee",
+    "description": "Mouse cable holder. Part of my WorkStation setup, with specifications and photos of the Mouse Bungee."
+  },
+  {
+    "path": "/peripherals/6/",
+    "title": "Epson L3560 | WorkStation Printer",
+    "description": "Epson multifunction printer for home and office use. Part of my WorkStation setup, with specifications and photos of the Printer."
+  },
+  {
+    "path": "/audio/1/",
+    "title": "EDIFIER R1855DB 2.0 | WorkStation Speakers",
+    "description": "Active EDIFIER speakers. Part of my WorkStation setup, with specifications and photos of the Speakers."
+  },
+  {
+    "path": "/audio/2/",
+    "title": "HyperX QuadCast S | WorkStation Microphone",
+    "description": "Professional RGB USB condenser microphone with excellent sound quality. Part of my WorkStation setup, with specifications and photos of the Microphone."
+  },
+  {
+    "path": "/audio/3/",
+    "title": "Panasonic Lumix G7 | WorkStation Camera",
+    "description": "Panasonic Lumix G7 mirrorless camera for video content and photography. Part of my WorkStation setup, with specifications and photos of the Camera."
+  },
+  {
+    "path": "/audio/4/",
+    "title": "DJI Action 4 | WorkStation Action Camera",
+    "description": "DJI Action 4 for dynamic action shots and outdoor content creation. Part of my WorkStation setup, with specifications and photos of the Action Camera."
+  },
+  {
+    "path": "/workspace/1/",
+    "title": "Custom with oak wood top | WorkStation Desk",
+    "description": "Custom desk with height adjustment. Part of my WorkStation setup, with specifications and photos of the Desk."
+  },
+  {
+    "path": "/workspace/2/",
+    "title": "Ergonomic office chair | WorkStation Chair",
+    "description": "Ergonomic office chair. Part of my WorkStation setup, with specifications and photos of the Chair."
+  },
+  {
+    "path": "/laptop/1/",
+    "title": "MacBook Pro M3 16 | WorkStation Laptop",
+    "description": "Laptop for mobile work and projects, perfect for programming and development. Part of my WorkStation setup, with specifications and photos."
+  }
+]

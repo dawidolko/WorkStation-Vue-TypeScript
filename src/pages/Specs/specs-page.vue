@@ -22,7 +22,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
 
 <template>
   <Navigation color="black" />
-  <header class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
+  <section aria-label="Page introduction" class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
     <div
       class="my-10 flex w-4/5 max-w-6xl flex-col items-center justify-center lg:my-20">
       <h1
@@ -30,7 +30,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
         Full Specifications
       </h1>
     </div>
-  </header>
+  </section>
   <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">
@@ -51,7 +51,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
           <router-link
             v-for="component in getComponentsByCategory(category)"
             :key="component.id"
-            :to="`/${component.category}/${component.id}`"
+            :to="`/${component.category}/${component.id}/`"
             class="block border border-k-grey p-6 cursor-pointer group hover:border-k-main hover:shadow-xl transition-all duration-300">
             <div class="flex flex-col sm:flex-row sm:items-start gap-6">
               <div
@@ -64,12 +64,12 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
               <div class="flex-1">
                 <div class="flex items-center gap-3 mb-3">
                   <h3
-                    class="text-xl font-bold text-k-black group-hover:text-k-main transition-colors duration-300">
+                    class="text-xl font-bold text-k-black group-hover:text-k-main-dark transition-colors duration-300">
                     {{ component.name }}
                   </h3>
                   <span
                     v-if="component.type === 'main'"
-                    class="px-3 py-1 bg-k-main text-sm font-semibold rounded group-hover:bg-k-black group-hover:text-k-main transition-colors duration-300">
+                    class="px-3 py-1 bg-k-main text-k-black text-sm font-semibold rounded group-hover:bg-k-black group-hover:text-k-main-dark transition-colors duration-300">
                     MAIN
                   </span>
                 </div>
@@ -85,7 +85,7 @@ const getCategoryDisplayNameEnglish = (category: string): string => {
                 <div
                   class="bg-k-light-grey p-4 group-hover:bg-k-grey transition-colors duration-300">
                   <h4
-                    class="font-semibold text-k-black mb-3 group-hover:text-k-main transition-colors duration-300">
+                    class="font-semibold text-k-black mb-3 group-hover:text-k-main-dark transition-colors duration-300">
                     Detailed specifications:
                   </h4>
                   <div class="grid gap-2 md:grid-cols-2">

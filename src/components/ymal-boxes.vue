@@ -28,7 +28,8 @@ onBeforeMount(() => {
         v-for="(item, index) in items"
         :key="index">
         <router-link
-          :to="`/${item.category}/${item.id}`"
+          :to="`/${item.category}/${item.id}/`"
+          :aria-label="`${item.name} ${item.model}`"
           class="overflow-hidden rounded">
           <img
             class="object-center filter grayscale transition duration-300 hover:grayscale-0 hover:scale-105"
@@ -41,7 +42,7 @@ onBeforeMount(() => {
           <span class="capitalize"> {{ item.model }}</span>
         </h3>
         <ButtonSolid
-          :to="`/${item.category}/${item.id}`"
+          :to="`/${item.category}/${item.id}/`"
           color="light"
           content="see component"
           size="small" />

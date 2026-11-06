@@ -10,7 +10,7 @@ import {
 
 <template>
   <Navigation color="black" />
-  <header class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
+  <section aria-label="Page introduction" class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
     <div
       class="my-10 flex w-4/5 max-w-6xl flex-col items-center justify-center lg:my-20">
       <h1
@@ -18,7 +18,7 @@ import {
         All Components
       </h1>
     </div>
-  </header>
+  </section>
   <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section class="mt-16 flex w-4/5 max-w-6xl flex-col md:mt-32">
@@ -26,12 +26,12 @@ import {
         <div
           class="mb-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <h2
-            class="text-3xl md:text-4xl font-bold text-k-black group-hover:text-k-main transition-colors duration-300">
+            class="text-3xl md:text-4xl font-bold text-k-black group-hover:text-k-main-dark transition-colors duration-300">
             {{ getCategoryDisplayName(category) }}
           </h2>
           <router-link
-            :to="`/${category}`"
-            class="text-k-main font-semibold hover:text-k-black px-4 py-2 border border-k-main hover:bg-k-main transition-all duration-300 text-center">
+            :to="`/${category}/`"
+            class="text-k-main-dark font-semibold hover:text-k-black px-4 py-2 border border-k-main hover:bg-k-main transition-all duration-300 text-center">
             View all components
           </router-link>
         </div>
@@ -63,17 +63,17 @@ import {
               <div class="flex items-center gap-3 mb-4">
                 <span
                   v-if="component.type === 'main'"
-                  class="px-3 py-1 bg-k-main text-xs font-bold rounded-full group-hover:bg-k-black group-hover:text-k-main transition-colors duration-300">
+                  class="px-3 py-1 bg-k-main text-k-black text-xs font-bold rounded-full group-hover:bg-k-black group-hover:text-k-main-dark transition-colors duration-300">
                   MAIN COMPONENT
                 </span>
                 <span
-                  class="text-xs text-k-black opacity-50 uppercase font-medium tracking-wider group-hover:opacity-70 transition-opacity duration-300">
+                  class="text-xs text-k-black opacity-70 uppercase font-medium tracking-wider group-hover:opacity-70 transition-opacity duration-300">
                   {{ getCategoryDisplayName(component.category) }}
                 </span>
               </div>
 
               <h3
-                class="font-bold text-k-black mb-2 group-hover:text-k-main transition-colors duration-300 text-lg">
+                class="font-bold text-k-black mb-2 group-hover:text-k-main-dark transition-colors duration-300 text-lg">
                 {{ component.name }}
               </h3>
 
@@ -103,8 +103,8 @@ import {
                   strone, z ktorej uzytkownik wlasnie kliknal.
                 -->
                 <router-link
-                  :to="`/${component.category}/${component.id}`"
-                  class="text-sm text-k-main font-bold hover:text-k-black px-3 py-1 rounded-md hover:bg-k-main transition-all duration-300">
+                  :to="`/${component.category}/${component.id}/`"
+                  class="text-sm text-k-main-dark font-bold hover:text-k-black px-3 py-1 rounded-md hover:bg-k-main transition-all duration-300">
                   Details →
                 </router-link>
               </div>

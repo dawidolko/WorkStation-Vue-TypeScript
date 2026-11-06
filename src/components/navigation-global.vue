@@ -34,6 +34,7 @@ function hideHamburger(): void {
       class="relative flex w-4/5 max-w-6xl flex-row items-center justify-between border-b border-zinc-500 py-6 md:w-11/12 lg:w-4/5">
       <button
         id="hamburger"
+        aria-label="Open the menu"
         class="select-none lg:hidden"
         @click="showHamburger()"
         data-test="hamburger">
@@ -58,7 +59,7 @@ function hideHamburger(): void {
         WorkStation
       </router-link>
 
-      <nav class="hidden tracking-widest lg:flex lg:gap-8">
+      <nav class="hidden tracking-widest lg:flex lg:gap-8" aria-label="Main">
         <router-link
           to="/"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
@@ -67,21 +68,21 @@ function hideHamburger(): void {
           >Home
         </router-link>
         <router-link
-          to="/setup"
+          to="/setup/"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
           active-class="!text-k-main underline"
           data-test="nav-setup"
           >Setup
         </router-link>
         <router-link
-          to="/components"
+          to="/components/"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
           active-class="!text-k-main underline"
           data-test="nav-components"
           >Components
         </router-link>
         <router-link
-          to="/specs"
+          to="/specs/"
           class="uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5"
           active-class="!text-k-main underline"
           data-test="nav-specs"
@@ -94,6 +95,7 @@ function hideHamburger(): void {
 
     <transition>
       <nav
+        aria-label="Mobile"
         class="absolute flex w-screen flex-row justify-around gap-2 bg-black p-9 text-xs font-semibold tracking-widest"
         v-if="hamburgerState === 'show'"
         :class="$route.path === '/' ? 'bg-k-black' : 'bg-black'"
@@ -114,7 +116,7 @@ function hideHamburger(): void {
           >Home
         </router-link>
         <router-link
-          to="/setup"
+          to="/setup/"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
           active-class="!text-k-main underline"
           :class="$route.path === '/setup' && 'hidden'"
@@ -123,7 +125,7 @@ function hideHamburger(): void {
           >Setup
         </router-link>
         <router-link
-          to="/components"
+          to="/components/"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
           active-class="!text-k-main underline"
           :class="$route.path === '/components' && 'hidden'"
@@ -132,7 +134,7 @@ function hideHamburger(): void {
           >Components
         </router-link>
         <router-link
-          to="/specs"
+          to="/specs/"
           class="lg:text-md uppercase text-white transition duration-300 hover:text-k-main active:translate-y-0.5 md:text-lg"
           active-class="!text-k-main underline"
           :class="$route.path === '/specs' && 'hidden'"

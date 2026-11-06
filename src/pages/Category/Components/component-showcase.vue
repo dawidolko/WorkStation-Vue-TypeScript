@@ -30,14 +30,14 @@ onMounted(() => {
         class="md:text-md text-sm font-light uppercase tracking-broad text-black">
         main component
       </p>
-      <h1
+      <h2
         class="mt-4 text-center text-4xl font-semibold uppercase text-black md:text-start md:text-5xl lg:text-6xl">
         {{ props.item.name }}
-      </h1>
-      <h2
+      </h2>
+      <p
         class="mt-2 text-center text-2xl font-medium text-black opacity-80 md:text-start md:text-3xl">
         {{ props.item.model }}
-      </h2>
+      </p>
       <p
         class="mb-6 mt-4 text-center text-black opacity-60 md:pr-20 md:text-start">
         {{ props.item.description }}
@@ -55,7 +55,7 @@ onMounted(() => {
           </li>
           <li
             v-if="props.item.specs.length > 4"
-            class="text-k-main font-medium">
+            class="text-k-black font-medium">
             + {{ props.item.specs.length - 4 }} more...
           </li>
         </ul>
@@ -64,7 +64,7 @@ onMounted(() => {
       <div
         class="flex flex-row items-center justify-center gap-4 md:justify-normal">
         <ButtonSolid
-          :to="`/${props.category}/${props.item.id}`"
+          :to="`/${props.category}/${props.item.id}/`"
           color="light"
           add="font-bold"
           content="See details" />

@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import Navigation from "../../components/navigation-global.vue";
 import Footer from "../../components/footer-global.vue";
-import setupMainImage from "/products/workspace/mystation (3).webp";
-import setupSideImage from "/products/workspace/mystation (1).webp";
-import setupTopImage from "/products/workspace/mystation (2).webp";
-import setupCloseImage from "/products/workspace/mystation (3).webp";
+import setupMainImage from "/products/workspace/mystation-3.webp";
+import setupSideImage from "/products/workspace/mystation-1.webp";
+import setupTopImage from "/products/workspace/mystation-2.webp";
+import setupCloseImage from "/products/workspace/mystation-3.webp";
 </script>
 
 <template>
   <Navigation color="black" />
-  <header class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
+  <section aria-label="Page introduction" class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
     <div
       class="my-10 flex w-4/5 max-w-6xl flex-col items-center justify-center lg:my-20">
       <h1
@@ -17,7 +17,7 @@ import setupCloseImage from "/products/workspace/mystation (3).webp";
         Setup Overview
       </h1>
     </div>
-  </header>
+  </section>
   <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <section

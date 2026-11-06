@@ -31,7 +31,7 @@ let item = computed(() => {
           <div class="mb-4">
             <span
               v-if="item.type === 'main'"
-              class="px-3 py-1 bg-k-main text-sm font-semibold rounded mb-4 inline-block">
+              class="px-3 py-1 bg-k-main text-k-black text-sm font-semibold rounded mb-4 inline-block">
               MAIN COMPONENT
             </span>
           </div>

@@ -17,7 +17,7 @@ const totalCategories = getAllCategories().length;
         class="flex h-full flex-col items-center justify-center text-center md:w-1/2 md:items-start md:text-start">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
           My <br class="hidden xl:inline" />
-          <span class="text-k-main">WorkStation</span> in numbers
+          <span class="text-k-main-dark">WorkStation</span> in numbers
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
           Discover my work and gaming station. From a powerful gaming PC with RX
@@ -32,7 +32,7 @@ const totalCategories = getAllCategories().length;
 
       <div class="grid grid-cols-2 gap-8 md:gap-12">
         <div class="flex flex-col items-center text-center">
-          <div class="text-5xl font-bold text-k-main md:text-6xl">
+          <div class="text-5xl font-bold text-k-main-dark md:text-6xl">
             {{ totalComponents }}
           </div>
           <div
@@ -42,7 +42,7 @@ const totalCategories = getAllCategories().length;
         </div>
 
         <div class="flex flex-col items-center text-center">
-          <div class="text-5xl font-bold text-k-main md:text-6xl">
+          <div class="text-5xl font-bold text-k-main-dark md:text-6xl">
             {{ totalCategories }}
           </div>
           <div
@@ -52,7 +52,7 @@ const totalCategories = getAllCategories().length;
         </div>
 
         <div class="flex flex-col items-center text-center">
-          <div class="text-5xl font-bold text-k-main md:text-6xl">3</div>
+          <div class="text-5xl font-bold text-k-main-dark md:text-6xl">3</div>
           <div
             class="mt-2 text-lg font-semibold text-k-black opacity-70 uppercase tracking-wide">
             Monitors
@@ -60,7 +60,7 @@ const totalCategories = getAllCategories().length;
         </div>
 
         <div class="flex flex-col items-center text-center">
-          <div class="text-5xl font-bold text-k-main md:text-6xl">64GB</div>
+          <div class="text-5xl font-bold text-k-main-dark md:text-6xl">64GB</div>
           <div
             class="mt-2 text-lg font-semibold text-k-black opacity-70 uppercase tracking-wide">
             RAM

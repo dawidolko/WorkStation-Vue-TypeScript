@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import setupMainImage from "/products/workspace/mystation (2).webp";
+import setupMainImage from "/products/workspace/mystation-2.webp";
 </script>
 
 <template>
@@ -25,7 +25,7 @@ import setupMainImage from "/products/workspace/mystation (2).webp";
           premium gaming equipment and professional workspace solutions.
         </p>
         <ButtonSolid
-          to="/components"
+          to="/components/"
           content="explore setup"
           color="light"
           add="font-bold mb-10" />

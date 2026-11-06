@@ -1,0 +1,23 @@
+# WorkStation
+
+> WorkStation is an interactive hardware showcase built with Vue 3 and TypeScript by Dawid Olko. It presents a gaming and productivity setup with photos and specifications of every component.
+
+## Pages
+
+- [Home](https://workstation.dawidolko.pl/): overview of the setup
+- [Setup](https://workstation.dawidolko.pl/setup/): photos of the whole station
+- [Components](https://workstation.dawidolko.pl/components/): every component by category
+- [Specs](https://workstation.dawidolko.pl/specs/): full technical specifications
+
+## Categories
+
+- [PC](https://workstation.dawidolko.pl/pc/): the desktop computer
+- [Laptop](https://workstation.dawidolko.pl/laptop/): the MacBook Pro
+- [Monitors](https://workstation.dawidolko.pl/monitors/): the three displays
+- [Peripherals](https://workstation.dawidolko.pl/peripherals/): keyboard, mice, headset and printer
+- [Audio](https://workstation.dawidolko.pl/audio/): speakers, microphone and cameras
+- [Workspace](https://workstation.dawidolko.pl/workspace/): desk and chair
+
+## Author
+
+- [Dawid Olko](https://dawidolko.pl): Fullstack / AI Developer, author of this project

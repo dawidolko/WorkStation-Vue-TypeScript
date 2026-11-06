@@ -14,12 +14,3 @@ export interface WorkStationDataType {
   [key: string]: Component[];
 }
 
-export interface meta {
-  title: string;
-  description: string;
-  image?: string;
-}
-
-export type metaContainer = {
-  [key: string]: meta;
-};

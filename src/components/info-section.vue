@@ -11,7 +11,7 @@ import switchesImage from "/display/switch-array.webp";
         class="flex h-full flex-col items-center justify-center text-center md:w-4/5 md:items-start md:text-start">
         <h3 class="text-4xl font-semibold uppercase text-k-black md:text-5xl">
           Bringing you the <br class="hidden xl:inline" />
-          <span class="text-k-main">best</span> keyboards
+          <span class="text-k-main-dark">best</span> keyboards
         </h3>
         <p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
           Located at the heart of Berlin City, WorkplayHub is the premier store
@@ -30,8 +30,7 @@ import switchesImage from "/display/switch-array.webp";
           loading="lazy"
           class="h-full w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105"
           :src="switchesImage"
-          alt=""
-          srcset="" />
+          alt="" />
       </div>
     </div>
   </section>

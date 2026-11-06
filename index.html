@@ -1,72 +1,30 @@
 <!doctype html>
-<html lang="pl">
+<html lang="en">
   <head>
-    <title>WorkStation – My Ultimate Gaming & Work Setup</title>
     <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript." />
+    <meta name="author" content="Dawid Olko" />
+    <title>WorkStation | Gaming and Work Setup Showcase</title>
     <meta
-      name="keywords"
-      content="WorkStation, gaming setup, workstation, pc gaming, ryzen 7 5800x, RX 9070xt, macbook pro m3" />
-    <meta name="author" content="Twoje Imię" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dawidolko.pl/" />
-    <meta
-      property="og:title"
-      content="WorkStation – My Ultimate Gaming & Work Setup" />
-    <meta
-      property="og:description"
-      content="Kompleksowa prezentacja mojego stanowiska pracy i gier z komponentami najwyższej jakości." />
-    <meta property="og:image" content="/products/setup/main-setup.jpg" />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://dawidolko.pl/" />
-    <meta
-      property="twitter:title"
-      content="WorkStation – My Ultimate Gaming & Work Setup" />
-    <meta
-      property="twitter:description"
-      content="Kompleksowa prezentacja mojego stanowiska pracy i gier z komponentami najwyższej jakości." />
-    <meta property="twitter:image" content="/products/setup/main-setup.jpg" />
-
-    <!-- SVG first: transparent, so it sits correctly on a dark tab strip. The PNG
-         stays as a fallback for browsers that do not take SVG favicons. -->
+      name="description"
+      content="Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript." />
     <link rel="icon" type="image/svg+xml" href="/icons/workstation-icon.svg" />
     <link rel="alternate icon" type="image/png" href="/icons/WorkStation-icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet" />
-  
-    <!-- Canonical URL: tells search engines which address is authoritative
-         when the same page is reachable through more than one URL. -->
-    <link rel="canonical" href="https://workstation.dawidolko.pl/" />
-
-    <!-- Open Graph / Twitter: controls how the page renders when shared. -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://workstation.dawidolko.pl/" />
-    <meta property="og:title" content="WorkStation – My Ultimate Gaming & Work Setup" />
-    <meta property="og:description" content="Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript." />
-    <meta property="og:site_name" content="WorkStation" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="WorkStation – My Ultimate Gaming & Work Setup" />
-    <meta name="twitter:description" content="Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript." />
-
-    <!-- Structured data: lets search engines describe the site in results
-         rather than guessing from the page text. -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "WorkStation",
-        "url": "https://workstation.dawidolko.pl",
-        "description": "Interactive showcase of a gaming and productivity workstation with detailed hardware specifications. Built with Vue 3 and TypeScript.",
-        "author": { "@type": "Person", "name": "Dawid Olko", "url": "https://dawidolko.pl" }
+    <link rel="preload" href="/fonts/manrope-200-800-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 200 800;
+        font-display: swap;
+        src: url(/fonts/manrope-200-800-latin.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
       }
-    </script>
+    </style>
     <script src="/a11y/a11y-panel.js" data-accent="#1d4ed8" defer></script>
   </head>
   <body>

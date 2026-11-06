@@ -32,7 +32,7 @@ const description = categoryDescriptions[props.category] || "";
         <h3
           class="text-4xl font-bold uppercase text-k-black md:text-5xl lg:text-6xl">
           About <br class="hidden xl:inline" />
-          <span class="text-k-main drop-shadow-sm">{{ categoryName }}</span>
+          <span class="text-k-main-dark drop-shadow-sm">{{ categoryName }}</span>
         </h3>
         <p
           class="mt-8 max-w-4xl text-lg leading-relaxed text-k-black opacity-80 md:mt-10 md:text-xl">
@@ -43,7 +43,7 @@ const description = categoryDescriptions[props.category] || "";
       <div
         class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6 mt-12 w-full max-w-4xl">
         <router-link
-          to="/pc"
+          to="/pc/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'pc',
@@ -60,7 +60,7 @@ const description = categoryDescriptions[props.category] || "";
         </router-link>
 
         <router-link
-          to="/laptop"
+          to="/laptop/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'laptop',
@@ -77,7 +77,7 @@ const description = categoryDescriptions[props.category] || "";
         </router-link>
 
         <router-link
-          to="/monitors"
+          to="/monitors/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'monitors',
@@ -94,7 +94,7 @@ const description = categoryDescriptions[props.category] || "";
         </router-link>
 
         <router-link
-          to="/peripherals"
+          to="/peripherals/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'peripherals',
@@ -111,7 +111,7 @@ const description = categoryDescriptions[props.category] || "";
         </router-link>
 
         <router-link
-          to="/audio"
+          to="/audio/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'audio',
@@ -128,7 +128,7 @@ const description = categoryDescriptions[props.category] || "";
         </router-link>
 
         <router-link
-          to="/workspace"
+          to="/workspace/"
           class="group relative rounded-xl bg-white border-2 border-k-grey p-3 md:p-4 lg:p-6 text-center transition-all duration-300 hover:border-k-main hover:shadow-xl hover:-translate-y-1 cursor-pointer"
           :class="{
             'bg-k-main border-k-main shadow-lg': category === 'workspace',

@@ -27,7 +27,7 @@ const props = defineProps<{
         class="flex flex-row items-baseline gap-4"
         v-for="(item, index) of props.inthebox"
         :key="index">
-        <p class="font-bold tracking-wide text-k-main">{{ item.count }}x</p>
+        <p class="font-bold tracking-wide text-k-main-dark">{{ item.count }}x</p>
         <p class="tracking-wide text-black opacity-60">
           {{ item.content }}
         </p>

@@ -19,7 +19,7 @@ const categoryName = computed(() => getCategoryDisplayName(props.category));
 
 <template>
   <Navigation color="black" />
-  <header class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
+  <section aria-label="Page introduction" class="flex w-full flex-col items-center bg-black lg:rounded-b-lg">
     <div
       class="my-10 flex w-4/5 max-w-6xl flex-col items-center justify-center lg:my-20">
       <h1
@@ -27,7 +27,7 @@ const categoryName = computed(() => getCategoryDisplayName(props.category));
         {{ categoryName }}
       </h1>
     </div>
-  </header>
+  </section>
   <main id="main-content" tabindex="-1"
     class="main-container flex h-full w-screen flex-col items-center bg-white">
     <ComponentShowcase

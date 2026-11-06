@@ -43,7 +43,7 @@ const props = defineProps<{
       </div>
 
       <ButtonSolid
-        :to="`/${props.item.category}/${props.item.id}`"
+        :to="`/${props.item.category}/${props.item.id}/`"
         color="light"
         add="font-bold"
         content="see details" />

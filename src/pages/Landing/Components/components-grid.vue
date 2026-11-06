@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import ButtonEmpty from "../../../components/Buttons/button-empty.vue";
 import ButtonSolid from "../../../components/Buttons/button-solid.vue";
-import pcImage from "/products/pc/computer (5).webp";
-import monitorsImage from "/products/workspace/mystation (2).webp";
-import peripheralsImage from "/products/workspace/mystation (1).webp";
+import pcImage from "/products/pc/computer-5.webp";
+import monitorsImage from "/products/workspace/mystation-2.webp";
+import peripheralsImage from "/products/workspace/mystation-1.webp";
 </script>
 
 <template>
@@ -17,12 +17,15 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
         <div
           class="group order-1 flex h-full w-full flex-col items-center justify-center md:order-none md:grid md:grid-cols-7">
           <router-link
-            to="/pc"
+            to="/pc/"
             aria-label="Gaming PC — view the build"
             class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden md:col-span-4 md:px-10">
             <img
               :src="pcImage"
               alt="High-end gaming PC workstation"
+              width="1280"
+              height="960"
+              loading="lazy"
               class="z-20 my-5 aspect-auto translate-x-3 translate-y-3 scale-90 grayscale hover:grayscale-0 transition-all duration-700 md:my-0 md:translate-x-0 md:translate-y-0 md:scale-100 md:group-hover:translate-x-6 md:group-hover:translate-y-6" />
           </router-link>
           <div
@@ -38,7 +41,7 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
               performance and style.
             </p>
             <ButtonSolid
-              to="/pc"
+              to="/pc/"
               content="VIEW SPECS"
               add="font-semibold hover:rotate-x-3"
               class="mb-10 self-center md:mb-0 md:self-start" />
@@ -48,10 +51,10 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
       <div
         class="order-3 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:col-span-2 md:row-span-2 md:h-full md:items-start md:bg-white md:px-6">
         <h2 class="text-3xl font-semibold uppercase">Monitors</h2>
-        <ButtonEmpty to="/monitors" content="view setup" />
+        <ButtonEmpty to="/monitors/" content="view setup" />
       </div>
       <router-link
-        to="/monitors"
+        to="/monitors/"
         aria-label="Monitors — view the setup"
         class="order-2 flex h-64 flex-col items-center justify-center overflow-hidden rounded-md bg-k-grey text-black md:order-none md:col-span-4 md:row-span-2 md:block md:h-full">
         <img
@@ -71,7 +74,7 @@ import peripheralsImage from "/products/workspace/mystation (1).webp";
       <div
         class="order-5 col-span-3 row-span-2 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:h-full md:items-start md:px-16">
         <h2 class="text-3xl font-semibold uppercase">Peripherals</h2>
-        <ButtonEmpty to="/peripherals" content="see all" />
+        <ButtonEmpty to="/peripherals/" content="see all" />
       </div>
     </div>
   </section>
