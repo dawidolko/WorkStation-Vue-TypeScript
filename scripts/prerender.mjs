@@ -94,7 +94,7 @@ function render(route, body, css, hero) {
   const style = css ? `<style data-prerender>${css}</style>` : "";
   const preload = hero ? `<link rel="preload" as="image" href="${hero}" fetchpriority="high"/>` : "";
   return stripped
-    .replace("</head>", () => `${headTags(route)}${preload}${style}</head>`)
+    .replace("</head>", () => `${headTags(route)}${route.head || ""}${preload}${style}</head>`)
     .replace(new RegExp(`(<div id="${site.rootId}">)\\s*(</div>)`), (_, open, close) => open + body + close);
 }
 

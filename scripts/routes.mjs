@@ -52,7 +52,14 @@ function structuredData(route) {
   ];
 }
 
-export const routes = meta.map((route) => ({ ...route, jsonLd: structuredData(route) }));
+const heroImage =
+  '<link rel="preload" as="image" fetchpriority="high" imagesrcset="/products/workspace/mystation-2-640.webp 640w, /products/workspace/mystation-2.webp 1280w" imagesizes="(min-width: 1280px) 1120px, 100vw"/>';
+
+export const routes = meta.map((route) => ({
+  ...route,
+  head: route.path === "/" ? heroImage : "",
+  jsonLd: structuredData(route),
+}));
 
 export const notFound = {
   probe: "/this-page-does-not-exist/",
